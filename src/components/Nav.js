@@ -1,11 +1,14 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
+// TODO: mobile nav
+
 function Nav () {
   return (
-    <div>
-      <nav>
+    <div className='navbar-fixed'>
+      <nav className='transparent grad-bg'>
         <div className='nav-wrapper container'>
+          <a href='#' data-target='mobile-demo' class='sidenav-trigger'><i class='material-icons'>menu</i></a>
           <ul id='nav-mobile' className='left hide-on-med-and-down'>
             <li><NavLink to='/'>Home</NavLink></li>
             <li><NavLink to='/about'>About</NavLink></li>

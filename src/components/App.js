@@ -19,7 +19,7 @@ class App extends Component {
           <Nav />
           <Header />
           <main>
-            <div className='container'>
+            <div>
               <Switch>
                 <Route exact path='/' component={Home} />
                 <Route path='/about' component={About} />

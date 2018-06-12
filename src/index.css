@@ -8,7 +8,6 @@ font-family: 'Roboto Mono', monospace;
 
 body {
   display: flex;
-  min-height: 100vh;
   flex-direction: column;
   margin: 0;
   padding: 0;
@@ -16,20 +15,28 @@ body {
 }
 
 main {
+  min-height: 60vh;
   flex: 1 0 auto;
 }
 
 .header {
-  min-height: 30vh;
-  background: linear-gradient(to bottom right, #0BB9A7, #322835);
+  min-height: 40vh;
   text-align: center;
   color: #fff;
   margin-top: 0;
-  padding-top: 0;
+  padding: 5vh;
 }
 
 .header h1 {
   padding-top: 10vh;
+}
+
+.grad-bg {
+  background: linear-gradient(to bottom right, #0BB9A7, #322835) !important;
+}
+
+footer {
+  background: linear-gradient(to bottom right, #0BB9A7, #322835) !important;
 }
 
 /* .bg-img {
