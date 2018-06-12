@@ -6,7 +6,7 @@ import { NavLink } from 'react-router-dom';
 function Nav () {
   return (
     <div className='navbar-fixed'>
-      <nav className='transparent grad-bg'>
+      <nav className='grad-bg'>
         <div className='nav-wrapper container'>
           <a href='#' data-target='mobile-demo' class='sidenav-trigger'><i class='material-icons'>menu</i></a>
           <ul id='nav-mobile' className='left hide-on-med-and-down'>

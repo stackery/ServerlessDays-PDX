@@ -15,8 +15,9 @@ body {
 }
 
 main {
-  min-height: 60vh;
+  min-height: 50vh;
   flex: 1 0 auto;
+  padding-bottom: 10vh;
 }
 
 .header {
@@ -27,12 +28,16 @@ main {
   padding: 5vh;
 }
 
-.header h1 {
-  padding-top: 10vh;
+.header p {
+  font-weight: lighter;
 }
 
 .grad-bg {
   background: linear-gradient(to bottom right, #0BB9A7, #322835) !important;
+}
+
+.not-wide {
+  max-width: 40% !important;
 }
 
 footer {
