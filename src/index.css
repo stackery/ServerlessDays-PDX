@@ -140,6 +140,10 @@ footer {
   text-align: center;
 }
 
+/* Map styling */
+.map-div {
+  height: 50vh;
+}
 
 /* .bg-img {
   position: relative;
