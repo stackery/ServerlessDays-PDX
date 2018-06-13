@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {Row, Col} from 'react-materialize';
+import ScrollableAnchor from 'react-scrollable-anchor';
 import Map from './Map';
 
 class Home extends Component {
@@ -7,7 +8,9 @@ class Home extends Component {
     return (
       <div>
         <div className='container'>
-          <h2 className='center-align shrinkme'>ServerlessDays in PDX</h2>
+          <ScrollableAnchor id={'home'}>
+            <h2 className='center-align shrinkme'>ServerlessDays in PDX</h2>
+          </ScrollableAnchor>
           <div className='valign-wrapper'>
             <Row>
               <Col s={12} m={4} l={4} className='grid-example center-align top-marg'>
@@ -28,18 +31,22 @@ class Home extends Component {
             </Row>
           </div>
           <div className='space' />
-          <h2 className='center-align'>Call for papers</h2>
-          <p>If you are interested in serverless technology and have a story to tell, we would be very happy to give you the opportunity to speak in front of an audience eager to hear your tales.</p>
-          <p>It doesn't matter if you're just starting out or if you are already an experienced, battle-hardened cloud guru. We want you to speak!</p>
-          <p>We aim to make ServerlessDays Portland an inclusive conference welcoming speakers from diverse backgrounds.</p>
-          <div className='center-align'>
-            <a className='btn-large top-marg' href='https://www.papercall.io/serverless-days-portland' target='_blank'>Submit your proposal</a>
+          <div className='container'>
+            <h2 className='center-align'>Call for papers</h2>
+            <p>If you are interested in serverless technology and have a story to tell, we would be very happy to give you the opportunity to speak in front of an audience eager to hear your tales.</p>
+            <p>It doesn't matter if you're just starting out or if you are already an experienced, battle-hardened cloud guru. We want you to speak!</p>
+            <p>We aim to make ServerlessDays Portland an inclusive conference welcoming speakers from diverse backgrounds.</p>
+            <div className='center-align'>
+              <a className='btn-large top-marg' href='https://www.papercall.io/serverless-days-portland' target='_blank'>Submit your proposal</a>
+            </div>
+            <div className='space' />
           </div>
-          <div className='space' />
-          <h2 className='center-align'>Join us in Portland!</h2>
-          <p>ServerlessDays Portland will take place at <a href='https://www.pcs.org/' target='_blank'>The Armory</a> in downtown Portland on Monday, September 17, 2018.</p>
-          <p>Portland Center Stage at The Armory <br />128 NW 11th Ave <br />Portland, OR 97209</p>
-          <div className='space' />
+          <div className='container'>
+            <h2 className='center-align'>Join us in Portland!</h2>
+            <p>ServerlessDays Portland will take place at <a href='https://www.pcs.org/' target='_blank'>The Armory</a> in downtown Portland on Monday, September 17, 2018.</p>
+            <p>Portland Center Stage at The Armory <br />128 NW 11th Ave <br />Portland, OR 97209</p>
+            <div className='space' />
+          </div>
         </div>
         <div className='map-div'>
           <Map />

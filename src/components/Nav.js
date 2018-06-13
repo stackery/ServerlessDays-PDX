@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
 
-// TODO: mobile nav
-
 class Nav extends Component {
   constructor (props) {
     super(props);

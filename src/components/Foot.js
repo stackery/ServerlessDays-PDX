@@ -1,6 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { HashLink } from 'react-router-hash-link';
+import { HashLink as Link } from 'react-router-hash-link';
 import { Footer } from 'react-materialize';
 
 function Foot () {
@@ -12,10 +11,10 @@ function Foot () {
             <div className='space-foot hide-on-med-and-down' />
             <ul className='left-align'>
               <li><Link className='grey-text text-lighten-3 bold' to='/tickets'>Tickets</Link></li>
-              <li><HashLink className='grey-text text-lighten-3' to='/location#venue'>Venue</HashLink></li>
+              <li><Link className='grey-text text-lighten-3' to='/location#venue'>Venue</Link></li>
               <li><Link className='grey-text text-lighten-3' to='/speakers'>Speakers</Link></li>
               <li><Link className='grey-text text-lighten-3' to='/schedule'>Schedule</Link></li>
-              <li><HashLink className='grey-text text-lighten-3' to='/about#coc'>Code of Conduct</HashLink></li>
+              <li><Link className='grey-text text-lighten-3' to='/about#coc'>Code of Conduct</Link></li>
             </ul>
           </div>
         }
