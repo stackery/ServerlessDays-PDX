@@ -7,10 +7,15 @@ class Location extends Component {
       <div>
         <div className='container'>
           <h2 className='center-align'>Join us in Portland!</h2>
+        </div>
+        <img src={'./media/pdx-skyline.jpg'} alt={'Portland Skyline'} className='full-img' />
+        <div className='container'>
+          <h2 className='center-align'>Venue</h2>
           <p>ServerlessDays Portland will take place at <a href='https://www.pcs.org/' target='_blank'>The Armory</a> in downtown Portland, Oregon.</p>
           <p>Portland Center Stage at The Armory <br />128 NW 11th Ave <br />Portland, OR 97209</p>
           <div className='small-space' />
         </div>
+        <img src={'./media/armory.jpg'} alt={'The Armory'} className='full-img' />
         <Map />
       </div>
     );

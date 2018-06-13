@@ -55,10 +55,6 @@ a {
   color: #0BB9A7;
 }
 
-a:hover {
-  color: #322835;
-}
-
 .space {
   margin-top: 20vh;
 }
@@ -74,6 +70,7 @@ a:hover {
 .purp-text {
   color: #322835 !important;
   font-weight: 700;
+  transition: color 0.5s ease-in-out 0;
 }
 
 .bold {
@@ -88,8 +85,16 @@ a:hover {
   background: linear-gradient(to bottom right, #0BB9A7, #322835);
 }
 
+.trans {
+  transition: all 0.5s ease-in-out 0 !important;
+}
+
 .not-wide {
   max-width: 40% !important;
+}
+
+.full-img {
+  width: 100%;
 }
 
 /* Navbar styling */

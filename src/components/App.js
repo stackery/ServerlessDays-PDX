@@ -6,6 +6,7 @@ import Foot from './Foot';
 import Home from './Home';
 import About from './About';
 import Location from './Location';
+import Speakers from './Speakers';
 import Schedule from './Schedule';
 import Workshops from './Workshops';
 
@@ -24,6 +25,7 @@ class App extends Component {
                 <Route exact path='/' component={Home} />
                 <Route path='/about' component={About} />
                 <Route path='/location' component={Location} />
+                <Route path='/speakers' component={Speakers} />
                 <Route path='/schedule' component={Schedule} />
                 <Route path='/workshops' component={Workshops} />
                 {/* 404 route below */}

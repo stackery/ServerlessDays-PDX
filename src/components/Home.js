@@ -7,7 +7,7 @@ class Home extends Component {
     return (
       <div>
         <div className='container'>
-          <h2 className='center-align'>Something clever</h2>
+          <h2 className='center-align'>ServerlessDays in PDX</h2>
           <Row>
             <div className='valign-wrapper'>
               <Col s={12} m={4} l={4} className='grid-example center-align top-marg'>

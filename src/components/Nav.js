@@ -29,7 +29,7 @@ class Nav extends Component {
   render () {
     return (
       <div id='navbar-custom' className='navbar-fixed'>
-        <nav className={this.state.isTop ? 'transparent z-depth-0' : 'white z-depth-0 purp-text'}>
+        <nav className={this.state.isTop ? 'trans transparent z-depth-0' : 'trans white z-depth-1 purp-text'}>
           <div className='nav-wrapper container'>
             <a href='#' class='right tickets-btn'><span className='tickets-txt valign-wrapper'>Tickets</span></a>
             <a href='#' data-target='mobile-demo' class='sidenav-trigger'><i class='material-icons'>menu</i></a>
@@ -37,6 +37,7 @@ class Nav extends Component {
               <li><NavLink to='/' className={this.state.isTop ? 'bold' : 'purp-text'}>Home</NavLink></li>
               <li><NavLink to='/about' className={this.state.isTop ? 'bold' : 'purp-text'}>About</NavLink></li>
               <li><NavLink to='/location' className={this.state.isTop ? 'bold' : 'purp-text'}>Location</NavLink></li>
+              <li><NavLink to='/speakers' className={this.state.isTop ? 'bold' : 'purp-text'}>Speakers</NavLink></li>
               <li><NavLink to='/schedule' className={this.state.isTop ? 'bold' : 'purp-text'}>Schedule</NavLink></li>
               <li><NavLink to='/workshops' className={this.state.isTop ? 'bold' : 'purp-text'}>Workshops</NavLink></li>
             </ul>
