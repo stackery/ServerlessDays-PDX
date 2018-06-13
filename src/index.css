@@ -4,7 +4,7 @@
 font-family: 'Roboto Mono', monospace;
  */
 
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:100,700|Roboto:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:100,700|Roboto:100,300,400,700');
 
 
 /* General styling */
@@ -92,8 +92,16 @@ a:hover {
   padding-top: 70px;
 }
 
+.header h4 {
+  margin-top: -1vh;
+}
+
 .header p {
-  font-weight: lighter;
+  font-weight: 100;
+}
+
+.header button {
+  margin-top: 4vh;
 }
 
 
