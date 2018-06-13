@@ -32,16 +32,16 @@ class Home extends Component {
           <p>If you are interested in cloud technology and have a story to tell, we would be very happy to give you the opportunity to speak in front of an audience thirsty for your tales.</p>
           <p>It doesn't matter if you are just starting out or if you are already an experienced, battle-hardened cloud guru. We want you to speak!</p>
           <div className='center-align'>
-            <button className='btn' href='https://www.papercall.io/serverless-days-portland'>Submit your proposal!</button>
+            <a className='btn-large top-marg' href='https://www.papercall.io/serverless-days-portland' target='_blank'>Submit your proposal!</a>
           </div>
           <div className='space' />
           <h2 className='center-align'>Join us in Portland!</h2>
-          <p>Serverless days will take place at Stackery's downtown office.</p>
-          <p><em>More about Stackery here, and photos!</em></p>
+          <p>Serverless days will take place at the Armory in downtown Portland, Oregon.</p>
+          <p>Portland Center Stage at The Armory <br />128 NW 11th Ave <br />Portland, OR 97209</p>
           <div className='space' />
-          <h2 className='center-align'>Location</h2>
         </div>
         <Map />
+        <div className='space' />
       </div>
     );
   }
