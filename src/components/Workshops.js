@@ -5,6 +5,7 @@ class Workshops extends Component {
     return (
       <div className='container center-align'>
         <h2>Workshop schedule coming soon!</h2>
+        <img src={'./media/owl_mascot.png'} alt={'ServerlessDays PDX logo'} className='responsive-img not-wide' />
       </div>
     );
   }

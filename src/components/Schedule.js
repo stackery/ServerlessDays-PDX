@@ -5,6 +5,7 @@ class Schedule extends Component {
     return (
       <div className='container center-align'>
         <h2>Schedule coming soon!</h2>
+        <img src={'./media/dino_mascot.png'} alt={'ServerlessDays PDX logo'} className='responsive-img not-wide' />
       </div>
     );
   }
