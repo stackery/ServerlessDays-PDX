@@ -30,6 +30,19 @@ main h2 {
   margin-bottom: 5vh;
 }
 
+main ul li {
+  list-style: none;
+  margin-left: 50px;
+}
+
+main ul li:before {
+  font-family: 'Material Icons';
+  content: '\e8dc';
+  color: #0BB9A7;
+  display: inline;
+  margin-right: 10px;
+}
+
 button {
   margin: 10px;
 }

@@ -29,6 +29,8 @@ class Home extends Component {
           </Row>
           <h2 className='center-align'>Call for papers</h2>
           <p />
+          <p />
+          https://www.papercall.io/serverless-days-portland
           <h2 className='center-align'>Join us in Portland!</h2>
         </div>
         <Map />
