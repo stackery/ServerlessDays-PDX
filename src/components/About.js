@@ -22,7 +22,7 @@ class About extends Component {
           </ul>
           <p>Learn more at the <a href='https://serverlessdays.io/' target='_blank'>ServerlessDays website</a>.</p>
         </div>
-        <h2 className='center-align'>Code of Conduct</h2>
+        <h2 className='center-align' id='#coc'>Code of Conduct</h2>
         <div className='container'>
           <p>
           All attendees, speakers, sponsors and volunteers at our conference are required to agree with the following code of conduct. Organisers will enforce this code throughout the event. We are expecting cooperation from all participants to help ensuring a safe environment for everybody.
@@ -57,7 +57,7 @@ class About extends Component {
           We expect participants to follow these rules at conference and workshop venues and conference-related social events.
           </p>
         </div>
-        <div className='center-align'>
+        <div className='center-align' id='#organizers'>
           <h2>Organizers</h2>
           <p>ServerlessDays Portland is presented in cooperation with <a href='https://www.stackery.io/' target='_blank'>Stackery</a>.</p>
           <img src={'./media/stackery-logo-horizontal-teal-bf925c02f93a9d977e2eb11fc85f609ef283ecd4a85551f0f2fd17fa16192c12.svg'} alt={'Stackery logo'} className='responsive-img not-wide' />
