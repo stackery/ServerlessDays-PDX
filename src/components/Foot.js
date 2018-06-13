@@ -9,7 +9,7 @@ function Foot () {
       <Footer copyrights='© 2018 Serverless Days Portland'
         links={
           <div>
-            <div className='small-space hide-on-med-and-down' />
+            <div className='space-foot hide-on-med-and-down' />
             <ul className='left-align'>
               <li><Link className='grey-text text-lighten-3 bold' to='/tickets'>Tickets</Link></li>
               <li><HashLink className='grey-text text-lighten-3' to='/location#venue'>Venue</HashLink></li>
@@ -22,7 +22,7 @@ function Foot () {
         }
         className='copyrights'
       >
-        <div className='small-space' />
+        <div className='space-foot' />
         <h5 className='white-text left-align normal'>ServerlessDays Portland</h5>
         <p className='grey-text text-lighten-4 left-align'>September 17, 2018 <br />Portland Center Stage at The Armory <br />128 NW 11th Ave <br />Portland, OR 97209</p>
         <p className='grey-text text-lighten-4 left-align'>ServerlessDays Portland is presented in cooperation with <a href='https://www.stackery.io/' target='_blank'>Stackery</a>.</p>

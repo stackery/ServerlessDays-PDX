@@ -55,12 +55,22 @@ a {
   color: #0BB9A7;
 }
 
+@media only screen and (max-width: 600px) {
+  .shrinkme {
+      font-size: 12vw;
+  }
+}
+
 .space {
   margin-top: 20vh;
 }
 
 .small-space {
   margin-top: 10vh;
+}
+
+.space-foot {
+  margin-top: 5vh;
 }
 
 .top-marg {
