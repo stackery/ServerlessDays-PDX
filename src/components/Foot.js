@@ -15,7 +15,6 @@ function Foot () {
               <li><HashLink className='grey-text text-lighten-3' to='/location#venue'>Venue</HashLink></li>
               <li><Link className='grey-text text-lighten-3' to='/speakers'>Speakers</Link></li>
               <li><Link className='grey-text text-lighten-3' to='/schedule'>Schedule</Link></li>
-              <li><Link className='grey-text text-lighten-3' to='/workshops'>Workshops</Link></li>
               <li><HashLink className='grey-text text-lighten-3' to='/about#coc'>Code of Conduct</HashLink></li>
             </ul>
           </div>

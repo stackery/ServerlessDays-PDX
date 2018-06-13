@@ -39,7 +39,6 @@ class Nav extends Component {
               <li><NavLink to='/location' className={this.state.isTop ? 'bold' : 'purp-text'}>Location</NavLink></li>
               <li><NavLink to='/speakers' className={this.state.isTop ? 'bold' : 'purp-text'}>Speakers</NavLink></li>
               <li><NavLink to='/schedule' className={this.state.isTop ? 'bold' : 'purp-text'}>Schedule</NavLink></li>
-              <li><NavLink to='/workshops' className={this.state.isTop ? 'bold' : 'purp-text'}>Workshops</NavLink></li>
             </ul>
           </div>
         </nav>

@@ -8,7 +8,6 @@ import About from './About';
 import Location from './Location';
 import Speakers from './Speakers';
 import Schedule from './Schedule';
-import Workshops from './Workshops';
 
 // Location, Schedule, and Workshop components will be used in the future and can be commented out for now here and in the navbar
 
@@ -27,7 +26,6 @@ class App extends Component {
                 <Route path='/location' component={Location} />
                 <Route path='/speakers' component={Speakers} />
                 <Route path='/schedule' component={Schedule} />
-                <Route path='/workshops' component={Workshops} />
                 {/* 404 route below */}
                 <Route render={function () {
                   return (
