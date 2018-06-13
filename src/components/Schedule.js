@@ -4,7 +4,7 @@ class Schedule extends Component {
   render () {
     return (
       <div className='container center-align'>
-        <h1>Schedule coming soon!</h1>
+        <h2>Schedule coming soon!</h2>
       </div>
     );
   }

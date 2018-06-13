@@ -4,7 +4,7 @@ class Workshops extends Component {
   render () {
     return (
       <div className='container center-align'>
-        <h1>Workshop schedule coming soon!</h1>
+        <h2>Workshop schedule coming soon!</h2>
       </div>
     );
   }

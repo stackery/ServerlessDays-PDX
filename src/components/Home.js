@@ -6,7 +6,7 @@ class Home extends Component {
     return (
       <div>
         <div className='container'>
-          <h1>Main page here!</h1>
+          <h2>Main page here!</h2>
         </div>
         <Map />
       </div>

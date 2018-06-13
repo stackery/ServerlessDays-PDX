@@ -54,6 +54,11 @@ class About extends Component {
           We expect participants to follow these rules at conference and workshop venues and conference-related social events.
           </p>
         </div>
+        <div className='center-align'>
+          <h2>Organizers</h2>
+          <p>ServerlessDays Portland is presented in cooperation with <a href='https://www.stackery.io/' target='_blank'>Stackery</a>.</p>
+          <img src={'./media/stackery-logo-horizontal-teal-bf925c02f93a9d977e2eb11fc85f609ef283ecd4a85551f0f2fd17fa16192c12.svg'} alt={'Stackery logo'} className='responsive-img not-wide' />
+        </div>
       </div>
     );
   }

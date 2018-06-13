@@ -20,6 +20,10 @@ main {
   padding-bottom: 10vh;
 }
 
+button {
+  margin: 10px;
+}
+
 .header {
   min-height: 40vh;
   text-align: center;
