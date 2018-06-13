@@ -16,6 +16,8 @@ class Location extends Component {
           <div className='small-space' />
         </div>
         <img src={'./media/armory.jpg'} alt={'The Armory'} className='full-img' />
+        <div className='small-space' />
+        <h2 className='center-align' id='map'>Map</h2>
         <Map />
       </div>
     );

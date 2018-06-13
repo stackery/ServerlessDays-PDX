@@ -9,7 +9,7 @@ function Foot () {
       <Footer copyrights='© 2018 Serverless Days Portland'
         links={
           <ul className='left-align'>
-            <li><Link className='grey-text text-lighten-3' to='/tickets'>Tickets</Link></li>
+            <li><Link className='grey-text text-lighten-3 bold' to='/tickets'>Tickets</Link></li>
             <li><HashLink className='grey-text text-lighten-3' to='/location#venue'>Venue</HashLink></li>
             <li><Link className='grey-text text-lighten-3' to='/speakers'>Speakers</Link></li>
             <li><Link className='grey-text text-lighten-3' to='/schedule'>Schedule</Link></li>

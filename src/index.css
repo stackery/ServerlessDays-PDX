@@ -97,6 +97,10 @@ a {
   width: 100%;
 }
 
+.map-div {
+  margin-bottom: -100px;
+}
+
 /* Navbar styling */
 .tickets-btn {
   background: #fff;
