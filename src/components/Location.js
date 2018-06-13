@@ -1,10 +1,17 @@
 import React, { Component } from 'react';
+import Map from './Map';
 
 class Location extends Component {
   render () {
     return (
-      <div className='container center-align'>
-        <h2>Detailed location information coming soon!</h2>
+      <div>
+        <div className='container'>
+          <h2 className='center-align'>Join us in Portland!</h2>
+          <p>ServerlessDays Portland will take place at the Armory in downtown Portland, Oregon.</p>
+          <p>Portland Center Stage at The Armory <br />128 NW 11th Ave <br />Portland, OR 97209</p>
+          <div className='small-space' />
+        </div>
+        <Map />
       </div>
     );
   }

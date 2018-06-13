@@ -63,6 +63,10 @@ a:hover {
   margin-top: 20vh;
 }
 
+.small-space {
+  margin-top: 10vh;
+}
+
 .top-marg {
   margin-top: 5vh;
 }
@@ -138,11 +142,6 @@ footer {
 .copyrights {
   font-family: 'Roboto Mono', monospace;
   text-align: center;
-}
-
-/* Map styling */
-.map-div {
-  height: 50vh;
 }
 
 /* .bg-img {
