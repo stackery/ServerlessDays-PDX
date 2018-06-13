@@ -1,25 +1,49 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
 
 // TODO: mobile nav
 
-function Nav () {
-  return (
-    <div className='navbar-fixed'>
-      <nav className='grad-bg'>
-        <div className='nav-wrapper container'>
-          <a href='#' data-target='mobile-demo' class='sidenav-trigger'><i class='material-icons'>menu</i></a>
-          <ul id='nav-mobile' className='left hide-on-med-and-down'>
-            <li><NavLink to='/'>Home</NavLink></li>
-            <li><NavLink to='/about'>About</NavLink></li>
-            <li><NavLink to='/location'>Location</NavLink></li>
-            <li><NavLink to='/schedule'>Schedule</NavLink></li>
-            <li><NavLink to='/workshops'>Workshops</NavLink></li>
-          </ul>
-        </div>
-      </nav>
-    </div>
-  );
+class Nav extends Component {
+  constructor (props) {
+    super(props);
+
+    this.state = {
+      isTop: true
+    };
+    this.onScroll = this.onScroll.bind(this);
+  }
+
+  componentDidMount () {
+    window.addEventListener('scroll', () => {
+      const isTop = window.scrollY < 70;
+      if (isTop !== this.state.isTop) {
+        this.onScroll(isTop);
+      }
+    });
+  }
+
+  onScroll (isTop) {
+    this.setState({ isTop });
+  }
+
+  render () {
+    return (
+      <div id='navbar-custom' className='navbar-fixed'>
+        <nav className={this.state.isTop ? 'transparent z-depth-0' : 'white z-depth-0 purp-text'}>
+          <div className='nav-wrapper container'>
+            <a href='#' data-target='mobile-demo' class='sidenav-trigger'><i class='material-icons'>menu</i></a>
+            <ul id='nav-mobile' className='left hide-on-med-and-down'>
+              <li><NavLink to='/' className={this.state.isTop ? '' : 'purp-text'}>Home</NavLink></li>
+              <li><NavLink to='/about' className={this.state.isTop ? '' : 'purp-text'}>About</NavLink></li>
+              <li><NavLink to='/location' className={this.state.isTop ? '' : 'purp-text'}>Location</NavLink></li>
+              <li><NavLink to='/schedule' className={this.state.isTop ? '' : 'purp-text'}>Schedule</NavLink></li>
+              <li><NavLink to='/workshops' className={this.state.isTop ? '' : 'purp-text'}>Workshops</NavLink></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    );
+  }
 }
 
 export default Nav;

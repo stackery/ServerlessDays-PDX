@@ -4,7 +4,7 @@
 font-family: 'Roboto Mono', monospace;
  */
 
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono|Roboto:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,500|Roboto:300,400,700');
 
 body {
   display: flex;
@@ -24,12 +24,29 @@ button {
   margin: 10px;
 }
 
+nav {
+  font-family: 'Roboto Mono', monospace;
+}
+
+footer {
+  font-family: 'Roboto Mono', monospace;
+}
+
+.purp-text {
+  color: #322835 !important;
+  font-weight: 500;
+}
+
 .header {
-  min-height: 40vh;
+  min-height: 50vh;
   text-align: center;
   color: #fff;
-  margin-top: 0;
+  margin-top: -70px;
   padding: 5vh;
+}
+
+.header img {
+  padding-top: 70px;
 }
 
 .header p {
