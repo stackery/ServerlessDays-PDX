@@ -5,21 +5,20 @@ function Foot () {
   return (
     <footer>
       <Footer copyrights='© 2018 Serverless Days Portland'
-        moreLinks={
-          <a className='grey-text text-lighten-4 right' href='#!'>More Links</a>
-        }
         links={
           <ul>
-            <li><a className='grey-text text-lighten-3' href='#!'>Link 1</a></li>
-            <li><a className='grey-text text-lighten-3' href='#!'>Link 2</a></li>
-            <li><a className='grey-text text-lighten-3' href='#!'>Link 3</a></li>
-            <li><a className='grey-text text-lighten-3' href='#!'>Link 4</a></li>
+            {/* add optional links here
+              <li><a className='grey-text text-lighten-3 left-align' href='#!'>Link 1</a></li>
+              <li><a className='grey-text text-lighten-3 left-align' href='#!'>Link 2</a></li>
+              <li><a className='grey-text text-lighten-3 left-align' href='#!'>Link 3</a></li>
+              <li><a className='grey-text text-lighten-3 left-align' href='#!'>Link 4</a></li>
+            */}
           </ul>
         }
-        className='example'
+        className='copyrights'
       >
-        <h5 className='white-text'>Footer Content</h5>
-        <p className='grey-text text-lighten-4'>You can use rows and columns here to organize your footer content.</p>
+        <h5 className='white-text left-align'>Footer Content</h5>
+        <p className='grey-text text-lighten-4 left-align'>Footer content will go here.</p>
       </Footer>
     </footer>
   );
