@@ -59,6 +59,10 @@ a:hover {
   color: #322835;
 }
 
+.space {
+  margin-top: 20vh;
+}
+
 .top-marg {
   margin-top: 5vh;
 }

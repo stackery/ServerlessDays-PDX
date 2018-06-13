@@ -27,11 +27,19 @@ class Home extends Component {
               </Col>
             </div>
           </Row>
+          <div className='space' />
           <h2 className='center-align'>Call for papers</h2>
-          <p />
-          <p />
-          https://www.papercall.io/serverless-days-portland
+          <p>If you are interested in cloud technology and have a story to tell, we would be very happy to give you the opportunity to speak in front of an audience thirsty for your tales.</p>
+          <p>It doesn't matter if you are just starting out or if you are already an experienced, battle-hardened cloud guru. We want you to speak!</p>
+          <div className='center-align'>
+            <button className='btn' href='https://www.papercall.io/serverless-days-portland'>Submit your proposal!</button>
+          </div>
+          <div className='space' />
           <h2 className='center-align'>Join us in Portland!</h2>
+          <p>Serverless days will take place at Stackery's downtown office.</p>
+          <p><em>More about Stackery here, and photos!</em></p>
+          <div className='space' />
+          <h2 className='center-align'>Location</h2>
         </div>
         <Map />
       </div>
