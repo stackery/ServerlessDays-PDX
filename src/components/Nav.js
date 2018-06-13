@@ -32,7 +32,7 @@ class Nav extends Component {
         <nav className={this.state.isTop ? 'trans transparent z-depth-0' : 'trans white z-depth-1 purp-text'}>
           <div className='nav-wrapper container'>
             <a href='#' class='right tickets-btn'><span className='tickets-txt valign-wrapper'>Tickets</span></a>
-            <a href='#' data-target='mobile-demo' class='sidenav-trigger'><i class='material-icons'>menu</i></a>
+            <a href='/' data-target='mobile-demo' className={this.state.isTop ? 'hide-on-med-and-up' : 'hide-on-med-and-up purp-text'}><i class='material-icons'>home</i></a>
             <ul id='nav-mobile' className='left hide-on-med-and-down'>
               <li><NavLink to='/' className={this.state.isTop ? 'bold' : 'purp-text'}>Home</NavLink></li>
               <li><NavLink to='/about' className={this.state.isTop ? 'bold' : 'purp-text'}>About</NavLink></li>
