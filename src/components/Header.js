@@ -10,7 +10,6 @@ class Header extends Component {
           <h4>Save The Date</h4>
           <button className='btn-large'>I call you to action!</button>
           <h5 className='top-marg'>September 17, 2018 - Portland, Oregon</h5>
-          <p>More information coming soon!</p>
         </header>
       </div>
     );
