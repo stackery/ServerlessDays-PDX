@@ -8,7 +8,7 @@ class Header extends Component {
           <img src={'./media/logo_serverless_PDX.png'} alt={'ServerlessDays PDX logo'} className='responsive-img' />
           <h2>One Day. One Track. One Community.</h2>
           <h4>Save The Date</h4>
-          <button className='btn-large'>I call you to action!</button>
+          <a href='https://www.papercall.io/serverless-days-portland' target='_blank' className='btn-large'>Propose a talk!</a>
           <h5 className='top-marg'>September 17, 2018 - Portland, Oregon</h5>
         </header>
       </div>
