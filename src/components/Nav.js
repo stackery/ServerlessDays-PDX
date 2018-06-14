@@ -33,11 +33,11 @@ class Nav extends Component {
             <a href='#' class='right tickets-btn'><span className='tickets-txt valign-wrapper'>Tickets</span></a>
             <a href='/' data-target='mobile-demo' className={this.state.isTop ? 'hide-on-med-and-up' : 'hide-on-med-and-up purp-text'}><i class='material-icons'>home</i></a>
             <ul id='nav-mobile' className='left hide-on-med-and-down'>
-              <li><Scrollchor animate={{offset: -70, duration: 500}} to='#cont-top'><NavLink to='/' className={this.state.isTop ? 'bold' : 'purp-text'}>Home</NavLink></Scrollchor></li>
-              <li><Scrollchor animate={{offset: -70, duration: 500}} to='#cont-top'><NavLink to='/about' className={this.state.isTop ? 'bold' : 'purp-text'}>About</NavLink></Scrollchor></li>
-              <li><Scrollchor animate={{offset: -70, duration: 500}} to='#cont-top'><NavLink to='/location' className={this.state.isTop ? 'bold' : 'purp-text'}>Location</NavLink></Scrollchor></li>
-              <li><Scrollchor animate={{offset: -70, duration: 500}} to='#cont-top'><NavLink to='/speakers' className={this.state.isTop ? 'bold' : 'purp-text'}>Speakers</NavLink></Scrollchor></li>
-              <li><Scrollchor animate={{offset: -70, duration: 500}} to='#cont-top'><NavLink to='/schedule' className={this.state.isTop ? 'bold' : 'purp-text'}>Schedule</NavLink></Scrollchor></li>
+              <li><Scrollchor animate={{offset: -70, duration: 500}} to='#top'><NavLink to='/' className={this.state.isTop ? 'bold' : 'purp-text'}>Home</NavLink></Scrollchor></li>
+              <li><Scrollchor animate={{offset: -70, duration: 500}} to='#top'><NavLink to='/about' className={this.state.isTop ? 'bold' : 'purp-text'}>About</NavLink></Scrollchor></li>
+              <li><Scrollchor animate={{offset: -70, duration: 500}} to='#top'><NavLink to='/location' className={this.state.isTop ? 'bold' : 'purp-text'}>Location</NavLink></Scrollchor></li>
+              <li><Scrollchor animate={{offset: -70, duration: 500}} to='#top'><NavLink to='/speakers' className={this.state.isTop ? 'bold' : 'purp-text'}>Speakers</NavLink></Scrollchor></li>
+              <li><Scrollchor animate={{offset: -70, duration: 500}} to='#top'><NavLink to='/schedule' className={this.state.isTop ? 'bold' : 'purp-text'}>Schedule</NavLink></Scrollchor></li>
             </ul>
           </div>
         </nav>

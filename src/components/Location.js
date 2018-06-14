@@ -5,7 +5,7 @@ class Location extends Component {
   render () {
     return (
       <div>
-        <div className='container' id='cont-top'>
+        <div className='container' id='top'>
           <h2 className='center-align'>Join us in Portland!</h2>
         </div>
         <img src={'./media/pdx-skyline.jpg'} alt={'Portland Skyline'} className='full-img' />
