@@ -15,8 +15,8 @@ class Home extends Component {
             <Row>
               <Col s={12} m={4} l={4} className='grid-example center-align top-marg'>
                 <img src={'./media/unicorn_mascot.png'} alt={'ServerlessDays mascot'} className='responsive-img not-wide' />
-                <h4 className='top-marg'>Workshops</h4>
-                <p>Hone your cloud skills and build interesting applications in one or more of the serverless workshops being held one day prior to the conference.</p>
+                <h4 className='top-marg'>Real world solutions</h4>
+                <p>Hone your cloud skills and learn the power of serverless during the conference dedicated to the serverless development community.</p>
               </Col>
               <Col s={12} m={4} l={4} className='grid-example center-align top-marg'>
                 <img src={'./media/anteater_mascot.png'} alt={'ServerlessDays mascot'} className='responsive-img not-wide' />
