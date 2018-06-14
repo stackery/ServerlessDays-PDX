@@ -51,6 +51,10 @@ nav {
   font-family: 'Roboto Mono', monospace;
 }
 
+.no-bg:hover {
+  background: transparent;
+}
+
 a {
   color: #0BB9A7;
 }
