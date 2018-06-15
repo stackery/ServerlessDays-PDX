@@ -37,7 +37,7 @@ class Home extends Component {
             <p>It doesn't matter if you're just starting out or if you are already an experienced, battle-hardened cloud guru. We want you to speak!</p>
             <p>We aim to make ServerlessDays Portland an inclusive conference welcoming speakers from diverse backgrounds.</p>
             <div className='center-align'>
-              <a className='btn-large top-marg' href='https://www.papercall.io/serverless-days-portland' target='_blank'>Submit your proposal</a>
+              <a className='btn-large top-marg' href='https://www.papercall.io/serverlessdayspdx' target='_blank'>Submit your proposal</a>
             </div>
             <div className='space' />
           </div>
