@@ -8,6 +8,7 @@ import About from './About';
 import Location from './Location';
 import Speakers from './Speakers';
 import Schedule from './Schedule';
+import Modal from './Modal';
 
 // Location, Schedule, and Workshop components will be used in the future and can be commented out for now here and in the navbar
 
@@ -18,6 +19,7 @@ class App extends Component {
         <div>
           <Nav />
           <Header />
+          <Modal />
           <main>
             <div>
               <Switch>
