@@ -7,7 +7,7 @@ class Home extends Component {
   render () {
     return (
       <div>
-        <div className='container' id='top'>
+        <div className='container'>
           <ScrollableAnchor id={'home'}>
             <h2 className='center-align shrinkme'>ServerlessDays in PDX</h2>
           </ScrollableAnchor>
