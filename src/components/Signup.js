@@ -28,7 +28,7 @@ class Signup extends Component {
     // }
     // NOTE: you access FormData fields with `data.get(fieldName)` 
     
-    fetch('https://15100903.50774451914902.stg1.stackery-stacks.io/signup', {
+    fetch('https://cors-anywhere.herokuapp.com/https://15100903.50774451914902.stg1.stackery-stacks.io/signup', {
       method: 'POST',
       body: json,
       mode: 'cors',
@@ -47,7 +47,7 @@ class Signup extends Component {
     // if success, update p_message
     this.setState({
       posted: true,
-      p_message: "Thanks for signing up, we'll let you know as soon as tickets go on sale!"
+      p_message: "Thanks for signing up, we'll let you know as soon as tickets go on sale."
     });
   }
 
