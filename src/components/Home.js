@@ -7,6 +7,13 @@ class Home extends Component {
   render () {
     return (
       <div>
+        <Row><h6 className='center-align'>Presented by:</h6></Row>
+        <Row className='valign-wrapper'>
+          <Col s={4} />
+          <Col s={2}><img src={'./media/stackery-large-stacked-navy-w-01.svg'} alt={'Stackery logo'} className='responsive-img' /></Col>
+          <Col s={2}><img src={'./media/Fauna-logo-color-web.png'} alt={'Fauna logo'} className='responsive-img' /></Col>
+          <Col s={4} />
+        </Row>
         <div className='container' id='top'>
           <ScrollableAnchor id={'home'}>
             <h2 className='center-align shrinkme'>ServerlessDays in PDX</h2>
