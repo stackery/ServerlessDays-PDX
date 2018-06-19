@@ -16,8 +16,8 @@ const Modal = () => {
           <Input type="email" label="Email" s={12} validate='true' />
         </Row>
       </div>
-      <div className="modal-footer">
-        <button type='submit' onChange='' className="modal-close waves-effect waves-teal btn-flat">Sign up</button>
+      <div className="center-align">
+        <button type='submit' onChange='' className="modal-close waves-effect teal btn-large">Sign up</button>
       </div>
     </div>
   )
