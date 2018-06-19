@@ -31,12 +31,14 @@ class Signup extends Component {
     fetch('https://15100903.50774451914902.stg1.stackery-stacks.io/signup', {
       method: 'POST',
       body: json,
+      mode: 'cors',
       headers: {
         'content-type': 'application/json'
       }
     }).then(response => {
+      let jsonResponse = response.json();
       console.log('A response!');
-      console.log(response);
+      console.log(jsonResponse);
     }).catch(e => {
       console.log('Something went wrong');
       console.log(e);
