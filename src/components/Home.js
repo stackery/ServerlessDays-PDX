@@ -10,10 +10,10 @@ class Home extends Component {
         <div className='container' id='top'>
           <Row><h6 className='center-align'>Presented by:</h6></Row>
           <Row className='valign-wrapper'>
-            <Col s={4} />
-            <Col s={2}><img src={'./media/stackery-large-stacked-navy-w-01.svg'} alt={'Stackery logo'} className='responsive-img' /></Col>
-            <Col s={2}><img src={'./media/Fauna-logo-color.svg'} alt={'Fauna logo'} className='responsive-img' /></Col>
-            <Col s={4} />
+            <Col s={2} l={4} />
+            <Col s={4} l={2}><a href='https://www.stackery.io/' target='_blank' rel='noopener noreferrer'><img src={'./media/stackery-large-stacked-navy-w-01.svg'} alt={'Stackery logo'} className='responsive-img' /></a></Col>
+            <Col s={4} l={2}><a href='https://fauna.com/' target='_blank' rel='noopener noreferrer'><img src={'./media/Fauna-logo-color.svg'} alt={'Fauna logo'} className='responsive-img' /></a></Col>
+            <Col s={2} l={4} />
           </Row>
           <ScrollableAnchor id={'home'}>
             <h2 className='center-align shrinkme'>ServerlessDays in PDX</h2>

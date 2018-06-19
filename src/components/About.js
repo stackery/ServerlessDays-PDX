@@ -60,11 +60,11 @@ class About extends Component {
         </div>
         <div className='center-align' id='#organizers'>
           <h2>Organizers</h2>
-            <Row className='valign-wrapper'>
-            <Col s={4} />
-            <Col s={2}><img src={'./media/stackery-large-stacked-navy-w-01.svg'} alt={'Stackery logo'} className='responsive-img' /></Col>
-            <Col s={2}><img src={'./media/Fauna-logo-color.svg'} alt={'Fauna logo'} className='responsive-img' /></Col>
-            <Col s={4} />
+          <Row className='valign-wrapper'>
+            <Col s={2} l={4} />
+            <Col s={4} l={2}><a href='https://www.stackery.io/' target='_blank' rel='noopener noreferrer'><img src={'./media/stackery-large-stacked-navy-w-01.svg'} alt={'Stackery logo'} className='responsive-img' /></a></Col>
+            <Col s={4} l={2}><a href='https://fauna.com/' target='_blank' rel='noopener noreferrer'><img src={'./media/Fauna-logo-color.svg'} alt={'Fauna logo'} className='responsive-img' /></a></Col>
+            <Col s={2} l={4} />
           </Row>
           <p>ServerlessDays Portland is presented in cooperation with <a href='https://www.stackery.io/' target='_blank' rel='noopener noreferrer'>Stackery</a> and <a href='https://fauna.com/' target='_blank' rel='noopener noreferrer'>Fauna</a>.</p>
         </div>
