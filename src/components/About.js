@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Row, Col} from 'react-materialize';
 
 class About extends Component {
   render () {
@@ -59,8 +60,13 @@ class About extends Component {
         </div>
         <div className='center-align' id='#organizers'>
           <h2>Organizers</h2>
-          <p>ServerlessDays Portland is presented in cooperation with <a href='https://www.stackery.io/' target='_blank' rel='noopener noreferrer'>Stackery</a>.</p>
-          <img src={'./media/stackery-logo-horizontal-teal-bf925c02f93a9d977e2eb11fc85f609ef283ecd4a85551f0f2fd17fa16192c12.svg'} alt={'Stackery logo'} className='responsive-img not-wide' />
+            <Row className='valign-wrapper'>
+            <Col s={4} />
+            <Col s={2}><img src={'./media/stackery-large-stacked-navy-w-01.svg'} alt={'Stackery logo'} className='responsive-img' /></Col>
+            <Col s={2}><img src={'./media/Fauna-logo-color.svg'} alt={'Fauna logo'} className='responsive-img' /></Col>
+            <Col s={4} />
+          </Row>
+          <p>ServerlessDays Portland is presented in cooperation with <a href='https://www.stackery.io/' target='_blank' rel='noopener noreferrer'>Stackery</a> and <a href='https://fauna.com/' target='_blank' rel='noopener noreferrer'>Fauna</a>.</p>
         </div>
       </div>
     );
