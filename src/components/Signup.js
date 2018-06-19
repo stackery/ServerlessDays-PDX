@@ -26,23 +26,21 @@ class Signup extends Component {
     //   name_input: data.get('name_input'),
     //   email_input: data.get('email_input')
     // }
-    console.log(signupData);
     // NOTE: you access FormData fields with `data.get(fieldName)` 
     
     fetch('https://15100903.50774451914902.stg1.stackery-stacks.io/signup', {
       method: 'POST',
-      body: json
-      // headers: {
-      //   'content-type': 'application/json'
-      // }
+      body: json,
+      headers: {
+        'content-type': 'application/json'
+      }
     }).then(response => {
       console.log('A response!');
       console.log(response);
     }).catch(e => {
       console.log('Something went wrong');
       console.log(e);
-      return e;
-    });
+    }).then(response => console.log('Success:', response));
 
     // if success, update p_message
     this.setState({
