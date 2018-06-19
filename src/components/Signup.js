@@ -17,13 +17,19 @@ class Signup extends Component {
     event.preventDefault();
     const data = new FormData(event.target);
     // NOTE: you access FormData fields with `data.get(fieldName)` 
-    console.log(data.get('first_name'));
-    console.log(data.get('last_name'));
+    console.log(data.get('name_input'));
     console.log(data.get('email_input'));
     
-    fetch('/api/signup', {
+    fetch('https://15100903.50774451914902.stg1.stackery-stacks.io/signup', {
       method: 'POST',
+      mode: "cors",
       body: data,
+      headers: {
+        'content-type': 'application/json'
+      }
+    }).then(response => console.log(response)).catch(e => {
+      console.log(e);
+      return e;
     });
 
     // if success, update p_message
@@ -43,8 +49,7 @@ class Signup extends Component {
         {!this.state.posted &&
           <form onSubmit={this.handleSubmit}>
             <Row>
-              <Input id='first_name' name='first_name' s={6} label='First Name' />
-              <Input id='last_name' name='last_name' s={6} label='Last Name' />
+              <Input id='name_input' name='name_input' s={12} label='Name' />
               <Input id='email_input' name='email_input' type='email' label='Email (required)' s={12} validate={true} required />
             </Row>
             <div className='center-align'>
