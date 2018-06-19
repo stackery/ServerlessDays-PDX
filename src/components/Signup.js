@@ -20,13 +20,11 @@ class Signup extends Component {
       name_input: data.get('name_input'),
       email_input: data.get('email_input')
     }
+    console.log(signupData);
     // NOTE: you access FormData fields with `data.get(fieldName)` 
-    console.log(data.get('name_input'));
-    console.log(data.get('email_input'));
     
     fetch('https://15100903.50774451914902.stg1.stackery-stacks.io/signup', {
       method: 'POST',
-      mode: 'cors',
       body: signupData
       // headers: {
       //   'content-type': 'application/json'
