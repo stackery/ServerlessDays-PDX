@@ -37,13 +37,13 @@ class Home extends Component {
             <p>It doesn't matter if you're just starting out or if you are already an experienced, battle-hardened cloud guru. We want you to speak!</p>
             <p>We aim to make ServerlessDays Portland an inclusive conference welcoming speakers from diverse backgrounds.</p>
             <div className='center-align'>
-              <a className='btn-large top-marg' href='https://www.papercall.io/serverlessdayspdx' target='_blank'>Submit your proposal</a>
+              <a className='btn-large top-marg' href='https://www.papercall.io/serverlessdayspdx' target='_blank' rel='noopener noreferrer'>Submit your proposal</a>
             </div>
             <div className='space' />
           </div>
           <div className='container'>
             <h2 className='center-align'>Join us in Portland!</h2>
-            <p>ServerlessDays Portland will take place at <a href='https://www.pcs.org/' target='_blank'>The Armory</a> in downtown Portland on Monday, September 17, 2018.</p>
+            <p>ServerlessDays Portland will take place at <a href='https://www.pcs.org/' target='_blank' rel='noopener noreferrer'>The Armory</a> in downtown Portland on Monday, September 17, 2018.</p>
             <p>Portland Center Stage at The Armory <br />128 NW 11th Ave <br />Portland, OR 97209</p>
             <div className='space' />
           </div>

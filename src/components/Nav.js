@@ -31,14 +31,14 @@ class Nav extends Component {
         <div id='navbar-custom' className='navbar-fixed'>
           <nav className={this.state.isTop ? 'trans transparent z-depth-0' : 'trans white z-depth-1 purp-text'}>
             <div className='nav-wrapper container'>
-              <a data-target='signupModal' class='right tickets-btn modal-trigger'><span className='tickets-txt valign-wrapper'>Tickets</span></a>
-              <a href='/' data-target='mobile-demo' className={this.state.isTop ? 'hide-on-med-and-up' : 'hide-on-med-and-up purp-text'}><i class='material-icons'>home</i></a>
+              <a data-target='signupModal' className='right tickets-btn modal-trigger'><span className='tickets-txt valign-wrapper'>Tickets</span></a>
+              <a href='/' data-target='mobile-demo' className={this.state.isTop ? 'hide-on-med-and-up' : 'hide-on-med-and-up purp-text'}><i className='material-icons'>home</i></a>
               <ul id='nav-mobile' className='left hide-on-med-and-down'>
-                <li><Scrollchor animate={{offset: -100, duration: 500}} to='#top'><NavLink to='/' className={this.state.isTop ? 'bold no-bg' : 'purp-text no-bg'}>Home</NavLink></Scrollchor></li>
-                <li><Scrollchor animate={{offset: -100, duration: 500}} to='#top'><NavLink to='/about' className={this.state.isTop ? 'bold no-bg' : 'purp-text no-bg'}>About</NavLink></Scrollchor></li>
-                <li><Scrollchor animate={{offset: -100, duration: 500}} to='#top'><NavLink to='/location' className={this.state.isTop ? 'bold no-bg' : 'purp-text no-bg'}>Location</NavLink></Scrollchor></li>
-                <li><Scrollchor animate={{offset: -100, duration: 500}} to='#top'><NavLink to='/speakers' className={this.state.isTop ? 'bold no-bg' : 'purp-text no-bg'}>Speakers</NavLink></Scrollchor></li>
-                <li><Scrollchor animate={{offset: -100, duration: 500}} to='#top'><NavLink to='/schedule' className={this.state.isTop ? 'bold no-bg' : 'purp-text no-bg'}>Schedule</NavLink></Scrollchor></li>
+                <li><Scrollchor animate={{offset: -100, duration: 500}} to='#top'><NavLink componentclass='span' to='/' className={this.state.isTop ? 'bold no-bg' : 'purp-text no-bg'}>Home</NavLink></Scrollchor></li>
+                <li><Scrollchor animate={{offset: -100, duration: 500}} to='#top'><NavLink componentclass='span' to='/about' className={this.state.isTop ? 'bold no-bg' : 'purp-text no-bg'}>About</NavLink></Scrollchor></li>
+                <li><Scrollchor animate={{offset: -100, duration: 500}} to='#top'><NavLink componentclass='span' to='/location' className={this.state.isTop ? 'bold no-bg' : 'purp-text no-bg'}>Location</NavLink></Scrollchor></li>
+                <li><Scrollchor animate={{offset: -100, duration: 500}} to='#top'><NavLink componentclass='span' to='/speakers' className={this.state.isTop ? 'bold no-bg' : 'purp-text no-bg'}>Speakers</NavLink></Scrollchor></li>
+                <li><Scrollchor animate={{offset: -100, duration: 500}} to='#top'><NavLink componentclass='span' to='/schedule' className={this.state.isTop ? 'bold no-bg' : 'purp-text no-bg'}>Schedule</NavLink></Scrollchor></li>
               </ul>
             </div>
           </nav>

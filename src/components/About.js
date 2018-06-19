@@ -20,7 +20,7 @@ class About extends Component {
             <li>Accessible: financially and physically accessible to the community</li>
             <li>Representitive: representative of the broader community within which it exists</li>
           </ul>
-          <p>Learn more at the <a href='https://serverlessdays.io/' target='_blank'>ServerlessDays website</a>.</p>
+          <p>Learn more at the <a href='https://serverlessdays.io/' target='_blank' rel='noopener noreferrer'>ServerlessDays website</a>.</p>
         </div>
         <h2 className='center-align' id='#coc'>Code of Conduct</h2>
         <div className='container'>
@@ -59,7 +59,7 @@ class About extends Component {
         </div>
         <div className='center-align' id='#organizers'>
           <h2>Organizers</h2>
-          <p>ServerlessDays Portland is presented in cooperation with <a href='https://www.stackery.io/' target='_blank'>Stackery</a>.</p>
+          <p>ServerlessDays Portland is presented in cooperation with <a href='https://www.stackery.io/' target='_blank' rel='noopener noreferrer'>Stackery</a>.</p>
           <img src={'./media/stackery-logo-horizontal-teal-bf925c02f93a9d977e2eb11fc85f609ef283ecd4a85551f0f2fd17fa16192c12.svg'} alt={'Stackery logo'} className='responsive-img not-wide' />
         </div>
       </div>
