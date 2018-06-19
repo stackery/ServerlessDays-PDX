@@ -25,12 +25,18 @@ class Map extends React.PureComponent {
     super(props);
 
     this.state = {
-      isMarkerShown: false,
+      isMarkerShown: false
     }
   }
 
   componentDidMount() {
     this.delayedShowMarker()
+  }
+
+  componentWillUnmount() {
+    this.setState({
+      isMarkerShown: true
+    })
   }
 
   delayedShowMarker = () => {

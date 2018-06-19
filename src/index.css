@@ -64,6 +64,10 @@ a {
   transition: all 0.5s ease-in-out 0 !important;
 }
 
+.container h5 {
+  margin-top: 3vh;
+}
+
 /* spacing */
 
 .space {
@@ -111,7 +115,7 @@ a {
 }
 
 .not-wide {
-  max-width: 40% !important;
+  max-width: 50% !important;
 }
 
 .full-img {
@@ -139,6 +143,10 @@ a {
 }
 
 /* Modal */
+
+.modal {
+  max-width: 50vw;
+}
 
 .modal-trigger {
   cursor: pointer;
@@ -172,7 +180,6 @@ a {
 .header button {
   margin-top: 4vh;
 }
-
 
 /* Footer styling */
 footer {
