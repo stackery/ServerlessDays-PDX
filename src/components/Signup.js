@@ -27,8 +27,10 @@ class Signup extends Component {
       // headers: {
       //   'content-type': 'application/json'
       // }
-    }).then(response => console.log(response))
-    .catch(e => {
+    }).then(response => {
+      console.log("A response!");
+      console.log(response);
+    }).catch(e => {
       console.log('Something went wrong');
       console.log(e);
       return e;
