@@ -28,7 +28,7 @@ class Signup extends Component {
     // }
     // NOTE: you access FormData fields with `data.get(fieldName)` 
     
-    fetch('https://cors-anywhere.herokuapp.com/https://15100903.50774451914902.stg1.stackery-stacks.io/signup', {
+    fetch('https://15100903.50774451914902.stg1.stackery-stacks.io/signup', {
       method: 'POST',
       body: json,
       mode: 'cors',
