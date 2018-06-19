@@ -15,17 +15,23 @@ class Signup extends Component {
 
   handleSubmit = (event) => {
     event.preventDefault();
-    const data = new FormData(event.target);
-    const signupData = {
-      name_input: data.get('name_input'),
-      email_input: data.get('email_input')
-    }
+    const formData = new FormData(event.target);
+    const signupData = {};
+    formData.forEach(function(value, key){
+      signupData[key] = value;
+    });
+    const json = JSON.stringify(signupData);
+    console.log(json);
+    // const signupData = {
+    //   name_input: data.get('name_input'),
+    //   email_input: data.get('email_input')
+    // }
     console.log(signupData);
     // NOTE: you access FormData fields with `data.get(fieldName)` 
     
     fetch('https://15100903.50774451914902.stg1.stackery-stacks.io/signup', {
       method: 'POST',
-      body: signupData
+      body: json
       // headers: {
       //   'content-type': 'application/json'
       // }
