@@ -16,12 +16,12 @@ class App extends Component {
   render () {
     return (
       <Router>
-        <div>
+        <div id='veryTop'>
           <Nav />
           <Header />
           <Modal />
           <main>
-            <div>
+            <div id='top'>
               <Switch>
                 <Route exact path='/' component={Home} />
                 <Route path='/about' component={About} />

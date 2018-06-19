@@ -17,7 +17,7 @@ function Foot () {
               <li><Scrollchor animate={{offset: -100, duration: 500}} to='#top'><Link className='grey-text text-lighten-3' to='/speakers'>Speakers</Link></Scrollchor></li>
               <li><Scrollchor animate={{offset: -100, duration: 500}} to='#top'><Link className='grey-text text-lighten-3' to='/schedule'>Schedule</Link></Scrollchor></li>
               <li><Link className='grey-text text-lighten-3' to='/about#coc'>Code of Conduct</Link></li>
-              <li><Scrollchor animate={{offset: -100, duration: 500}} to='#top'>Back to top</Scrollchor></li>
+              <li><Scrollchor animate={{offset: -100, duration: 500}} to='#veryTop'>Back to top</Scrollchor></li>
             </ul>
           </div>
         }
