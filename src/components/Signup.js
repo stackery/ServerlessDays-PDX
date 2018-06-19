@@ -16,6 +16,10 @@ class Signup extends Component {
   handleSubmit = (event) => {
     event.preventDefault();
     const data = new FormData(event.target);
+    const signupData = {
+      name_input: data.get('name_input'),
+      email_input: data.get('email_input')
+    }
     // NOTE: you access FormData fields with `data.get(fieldName)` 
     console.log(data.get('name_input'));
     console.log(data.get('email_input'));
@@ -23,12 +27,12 @@ class Signup extends Component {
     fetch('https://15100903.50774451914902.stg1.stackery-stacks.io/signup', {
       method: 'POST',
       mode: 'cors',
-      body: data
+      body: signupData
       // headers: {
       //   'content-type': 'application/json'
       // }
     }).then(response => {
-      console.log("A response!");
+      console.log('A response!');
       console.log(response);
     }).catch(e => {
       console.log('Something went wrong');
