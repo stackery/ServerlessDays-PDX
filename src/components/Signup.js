@@ -55,7 +55,7 @@ class Signup extends Component {
         {/* only show after successful submit */}
         {this.state.posted &&
           <div className='center-align'>
-            <button className='modal-close waves-effect teal btn-large'>Awesome!</button>
+            <button className='modal-close waves-effect teal btn-large'>Awesome</button>
           </div>
         }
       </div>
