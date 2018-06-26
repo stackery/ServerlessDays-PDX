@@ -7,7 +7,7 @@ class Signup extends Component {
 
     this.state = {
       posted: false,
-      p_message: 'Please enter your email to be notified when tickets go on sale (we promise not to spam you).'
+      p_message: 'Please enter your email to be notified when the schedule and speakers are announced (we promise not to spam you).'
     };
 
     this.handleSubmit = this.handleSubmit.bind(this);
@@ -47,14 +47,14 @@ class Signup extends Component {
     // if success, update p_message
     this.setState({
       posted: true,
-      p_message: "Thanks for signing up, we'll let you know as soon as tickets go on sale."
+      p_message: "Thanks for signing up, we'll let you know as soon as our speaker lineup and schedule are live."
     });
   }
 
   render() {
     return (
       <div>
-        <h4 className='center-align'>Tickets on sale soon!</h4>
+        <h4 className='center-align'>Tickets are now <a href='https://www.eventbrite.com/e/serverlessdays-pdx-tickets-47446178798' target='_blank' rel='noopener noreferrer'>on sale</a>!</h4>
         <div className='space-foot' />
         <p>{this.state.p_message}</p>
         {/* only show form if form hasn't been submitted */}
