@@ -31,7 +31,7 @@ class Nav extends Component {
         <div id='navbar-custom' className='navbar-fixed'>
           <nav className={this.state.isTop ? 'trans transparent z-depth-0' : 'trans white z-depth-1 purp-text'}>
             <div className='nav-wrapper container'>
-              <a href='https://www.eventbrite.com/e/serverlessdays-pdx-tickets-47446178798' target='_blank' rel='noopener noreferrer'><span className='tickets-txt valign-wrapper'>Tickets</span></a>
+              <a className='right tickets-btn' href='https://www.eventbrite.com/e/serverlessdays-pdx-tickets-47446178798' target='_blank' rel='noopener noreferrer'><span className='tickets-txt valign-wrapper'>Tickets</span></a>
               <a href='/' data-target='mobile-demo' className={this.state.isTop ? 'hide-on-med-and-up' : 'hide-on-med-and-up purp-text'}><i className='material-icons'>home</i></a>
               <ul id='nav-mobile' className='left hide-on-med-and-down'>
                 <li><Scrollchor animate={{offset: -100, duration: 500}} to='#top'><NavLink componentclass='span' to='/' className={this.state.isTop ? 'bold no-bg' : 'purp-text no-bg'}>Home</NavLink></Scrollchor></li>
