@@ -21,6 +21,7 @@ class About extends Component {
             <li>Accessible: financially and physically accessible to the community</li>
             <li>Representitive: representative of the broader community within which it exists</li>
           </ul>
+          <p>We follow and enforce the ServerlessDays Code of Conduct.</p>
           <p>Learn more at the <a href='https://serverlessdays.io/' target='_blank' rel='noopener noreferrer'>ServerlessDays website</a>.</p>
         </div>
         <h2 className='center-align' id='#coc'>Code of Conduct</h2>
@@ -57,6 +58,20 @@ class About extends Component {
           <p>
           We expect participants to follow these rules at conference and workshop venues and conference-related social events.
           </p>
+          <h5>When Something Happens</h5>
+          <p>If you see a Code of Conduct violation, follow these steps:</p>
+          <ul>
+            <li>Let the person know that what they did is not appropriate and ask them to stop.</li>
+            <li>That person should immediately stop the behavior and correct the issue.</li>
+            <li>If this does not happen, or if you are uncomfortable speaking up, contact the conference staff as soon as possible.</li>
+            <li>A staff member will immediately address the issue and take further action.</li>
+          </ul>
+          <br />
+          <p><em>
+          Original source and credit: <a href='http://2012.jsconf.us/#/about' target='_blank' rel='noopener noreferrer'>JSConf US</a> & <a href='http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy' target='_blank' rel='noopener noreferrer'>The Ada Initiative</a><br />
+          Please help by translating or improving: <a href='http://github.com/leftlogic/confcodeofconduct.com' target='_blank' rel='noopener noreferrer'>http://github.com/leftlogic/confcodeofconduct.com</a><br />
+          This work is licensed under a <a href='https://creativecommons.org/licenses/by/3.0/deed.en_US' target='_blank' rel='noopener noreferrer'>Creative Commons Attribution 3.0 Unported License</a>
+          </em></p>
         </div>
         <div className='center-align' id='#organizers'>
           <h2>Organizers</h2>

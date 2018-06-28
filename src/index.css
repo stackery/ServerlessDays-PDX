@@ -38,7 +38,7 @@ main ul li {
 
 main ul li:before {
   font-family: 'Material Icons';
-  content: '\e8dc';
+  content: '\e86f';
   color: #0BB9A7;
   display: inline;
   margin-right: 10px;

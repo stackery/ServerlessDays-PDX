@@ -7,6 +7,7 @@ import Home from './Home';
 import About from './About';
 import Location from './Location';
 import Speakers from './Speakers';
+import Sponsors from './Sponsors';
 import Schedule from './Schedule';
 import Modal from './Modal';
 
@@ -27,6 +28,7 @@ class App extends Component {
                 <Route path='/about' component={About} />
                 <Route path='/location' component={Location} />
                 <Route path='/speakers' component={Speakers} />
+                <Route path='/sponsors' component={Sponsors} />
                 <Route path='/schedule' component={Schedule} />
                 {/* 404 route below */}
                 <Route render={function () {
