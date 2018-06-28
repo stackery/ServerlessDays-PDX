@@ -6,15 +6,14 @@ class Sponsors extends Component {
       <div className='container' id='top'>
         <div className='container'>
           <h2 className='center-align'>Sponsor ServerlessDays Portland</h2>
-          <h4>Become a speaker!</h4>
-          <p>If you are interested in serverless technology and have a story to tell, we would be very happy to give you the opportunity to speak in front of an audience eager to hear your tales.</p>
-          <p>It doesn't matter if you're just starting out or if you are already an experienced, battle-hardened cloud guru. We want you to speak!</p>
-          <p>We aim to make ServerlessDays Portland an inclusive conference welcoming speakers from diverse backgrounds.</p>
+          <h4>Become a sponsor!</h4>
+          <p>ServerlessDays is a community focused, single track, one day event that moves away from the hype and focuses on the reality serverless based solutions. It’s about fostering a community locally and helping all of us learn from each other as we embrace a new way of building applications.</p>
+          <p>As a community event, ServerlessDays could not exist without sponsors. We are currently offering sponsorship packages for the Portland ServerlessDays event. Help us create a unique and meaningful experience for our attendees.</p>
+          <p>We’d love to have you as a sponsor! To become a sponsor or learn more please contact <a href='mailto:portland@serverlessdays.io'>portland@serverlessdays.io</a></p>
           <div className='center-align'>
-            <a className='btn-large top-marg' href='https://www.papercall.io/serverlessdayspdx' target='_blank' rel='noopener noreferrer'>Submit your proposal</a>
+            <a className='btn-large top-marg' href='#' target='_blank' rel='noopener noreferrer'>Sponsor Prospectus</a>
           </div>
           <div className='space-foot' />
-          <p>Want to find out who's speaking as soon as they're announced? Sign up for our <a data-target='signupModal' className='modal-trigger'>mailing list</a> to be notified.</p>
         </div>
       </div>
     );
