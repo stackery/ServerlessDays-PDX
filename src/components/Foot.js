@@ -6,7 +6,12 @@ import { Footer } from 'react-materialize';
 function Foot () {
   return (
     <footer>
-      <Footer copyrights='© 2018 Serverless Days Portland'
+      <Footer copyrights={
+        <div>
+          © 2018 Serverless Days Portland &nbsp;
+          <a href="https://twitter.com/ServerlessPDX" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+        </div>
+      }
         links={
           <div>
             <div className='space-foot hide-on-med-and-down' />
@@ -17,6 +22,7 @@ function Foot () {
               <li><Scrollchor animate={{offset: -100, duration: 500}} to='#top'><Link className='grey-text text-lighten-3' to='/speakers'>Speakers</Link></Scrollchor></li>
               <li><Scrollchor animate={{offset: -100, duration: 500}} to='#top'><Link className='grey-text text-lighten-3' to='/schedule'>Schedule</Link></Scrollchor></li>
               <li><Link className='grey-text text-lighten-3' to='/about#coc'>Code of Conduct</Link></li>
+              <li><a href="https://twitter.com/ServerlessPDX" target="_blank" rel="noopener noreferrer">Twitter</a></li>
               <li><Scrollchor animate={{offset: -100, duration: 500}} to='#veryTop'>Back to top</Scrollchor></li>
             </ul>
           </div>
