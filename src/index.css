@@ -44,6 +44,10 @@ main ul li:before {
   margin-right: 10px;
 }
 
+.pull-left {
+  margin-left: 0 !important;
+}
+
 button {
   margin: 10px;
 }
@@ -58,6 +62,10 @@ nav {
 
 a {
   color: #0BB9A7;
+}
+
+i {
+  margin-right: 10px;
 }
 
 .trans {
@@ -106,6 +114,11 @@ a {
 
 .normal {
   font-weight: 400;
+}
+
+.company {
+  color: #666;
+  margin-top: 0 !important;
 }
 
 /* image styles */
