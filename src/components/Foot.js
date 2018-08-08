@@ -9,7 +9,7 @@ function Foot () {
       <Footer copyrights={
         <div>
           © 2018 Serverless Days Portland &nbsp;
-          <a href="https://twitter.com/ServerlessPDX" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+          <a href="https://twitter.com/ServerlessPDX" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a>
         </div>
       }
         links={
