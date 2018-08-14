@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import {Row, Col} from 'react-materialize';
+import { HashLink as Link } from 'react-router-hash-link';
+import Scrollchor from 'react-scrollchor';
 import ScrollableAnchor from 'react-scrollable-anchor';
 import Map from './Map';
 
@@ -37,12 +39,10 @@ class Home extends Component {
           </Row>
           <div className='space' />
           <div className='container'>
-            <h2 className='center-align'>Call for papers</h2>
-            <p>If you are interested in serverless technology and have a story to tell, we would be very happy to give you the opportunity to speak in front of an audience eager to hear your tales.</p>
-            <p>It doesn't matter if you're just starting out or if you are already an experienced, battle-hardened cloud guru. We want you to speak!</p>
-            <p>We aim to make ServerlessDays Portland an inclusive conference welcoming speakers from diverse backgrounds.</p>
+            <h2 className='center-align'>Speakers announced</h2>
+            <p>Our first speakers have been announced! Visit the speakers page for updates as more speakers are confirmed.</p>
             <div className='center-align'>
-              <a className='btn-large top-marg' href='https://www.papercall.io/serverlessdayspdx' target='_blank' rel='noopener noreferrer'>Submit your proposal</a>
+              <Scrollchor animate={{offset: -100, duration: 500}} to='#top'><Link className='btn-large top-marg' to='/speakers'>View Speakers</Link></Scrollchor>
             </div>
             <div className='space' />
           </div>
