@@ -1,11 +1,24 @@
 import React, { Component } from 'react';
+import {Row, Col} from 'react-materialize';
 
 class Sponsors extends Component {
   render () {
     return (
-      <div className='container' id='top'>
+      <div className='container sponsors' id='top'>
         <div className='container'>
-          <h2 className='center-align'>Sponsor ServerlessDays Portland</h2>
+          <h2 className='center-align'>2018 Sponsors</h2>
+          <Row className='valign-wrapper'>
+            <Col s={12} l={4}>
+              <a href='https://azure.microsoft.com/en-us/' target='_blank' rel='noopener noreferrer'><img src={'./media/sponsors/MSAzure.png'} alt={'Microsoft Azure'} className='responsive-img' /></a>
+            </Col>
+            <Col s={12} l={4}>
+              <a href='https://aws.amazon.com/' target='_blank' rel='noopener noreferrer'><img src={'./media/sponsors/aws.png'} alt={'AWS'} className='responsive-img' /></a>
+            </Col>
+            <Col s={12} l={4}>
+            </Col>
+          </Row>
+          <div className='divider' />
+          <h3 className='center-align'>Sponsor ServerlessDays PDX</h3>
           <h4>Become a sponsor!</h4>
           <p>ServerlessDays is a community-focused, single-track, one-day event that moves away from the hype and focuses on the reality serverless-based solutions. It’s about fostering a community locally and helping all of us learn from each other as we embrace a new way of building applications.</p>
           <p>As a community event, ServerlessDays could not exist without sponsors. We are currently offering sponsorship packages for the Portland ServerlessDays event. Together we can create a unique and meaningful experience for our attendees.</p>

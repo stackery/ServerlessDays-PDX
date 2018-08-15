@@ -31,6 +31,10 @@ main h2 {
   margin-bottom: 5vh;
 }
 
+main h3 {
+  margin-bottom: 5vh;
+}
+
 main ul li {
   list-style: none;
   margin-left: 50px;
@@ -77,6 +81,10 @@ i {
 }
 
 /* spacing */
+
+.sponsors .divider {
+  margin: 10vh 0 5vh 0 !important;
+}
 
 .space {
   margin-top: 20vh;
