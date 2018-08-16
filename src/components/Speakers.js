@@ -51,7 +51,22 @@ class Speakers extends Component {
               <h5><a href='https://twitter.com/ewindisch' target='_blank' rel='noopener noreferrer'><i className="fab fa-twitter"></i></a><a href='https://www.linkedin.com/in/ewindisch/' target='_blank' rel='noopener noreferrer'><i className="fab fa-linkedin-in"></i></a></h5>
             </Col>
             <Col s={12} l={3}>
-              <img src={'./media/speakers/erica.jpg'} alt={'Charity Majors'} className='responsive-img' />
+              <img src={'./media/speakers/erica.jpg'} alt={'Erica Windisch'} className='responsive-img' />
+            </Col>
+          </Row>
+          <div className='divider' />
+          <Row>
+            <Col s={12} l={12}>
+              <h4 className='top-marg'>Kelsey Hightower</h4>
+              <h5 className='company'>Google</h5>
+            </Col>
+            <Col s={12} l={9}>
+              <p>Kelsey is a technologist working at Google on simple solutions to hard problems. He has worn every hat possible throughout his career in tech, and enjoys leadership roles focused on making things happen and shipping software. Kelsey is a strong open source advocate focused on building simple tools that make people smile.</p>
+              <p>Pronouns: he/him</p>
+              <h5><a href='https://twitter.com/kelseyhightower' target='_blank' rel='noopener noreferrer'><i className="fab fa-twitter"></i></a></h5>
+            </Col>
+            <Col s={12} l={3}>
+              <img src={'./media/speakers/kelsey.jpg'} alt={'Kelsey Hightower'} className='responsive-img' />
             </Col>
           </Row>
           <div className='divider' />
