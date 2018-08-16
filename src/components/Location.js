@@ -6,7 +6,10 @@ class Location extends Component {
     return (
       <div>
         <div className='container' id='top'>
-          <h2 className='center-align space'>Join us in Portland!</h2>
+          <div className='center-align'>
+            <h2 className='center-align space'>Join us in Portland!</h2>
+            <div className='titleHR' />
+          </div>
         </div>
         <img src={'./media/pdx-skyline.jpg'} alt={'Portland Skyline'} className='full-img' />
         <div className='container'>

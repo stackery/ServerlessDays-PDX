@@ -18,7 +18,10 @@ class Home extends Component {
             <Col s={2} l={4} />
           </Row>
           <ScrollableAnchor id={'home'}>
-            <h2 className='center-align shrinkme'>ServerlessDays in PDX</h2>
+            <div className='center-align'>
+              <h2 className='center-align shrinkme'>ServerlessDays in PDX</h2>
+              <div className='titleHR' />
+            </div>
           </ScrollableAnchor>
           <Row>
             <Col s={12} m={4} l={4} className='center-align top-marg'>

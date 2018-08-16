@@ -5,7 +5,10 @@ class About extends Component {
   render () {
     return (
       <div className='container' id='top'>
-        <h2 className='center-align'>About ServerlessDays</h2>
+        <div className='center-align'>
+          <h2 className='center-align'>About ServerlessDays</h2>
+          <div className='titleHR' />
+        </div>
         <div className='container'>
           <p>
           ServerlessDays are a family of events around the world focused on fostering a community around serverless technologies.

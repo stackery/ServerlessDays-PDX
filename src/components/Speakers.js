@@ -6,7 +6,10 @@ class Speakers extends Component {
     return (
       <div className='container' id='top'>
         <div className='container'>
-          <h2 className='center-align'>2018 Speakers</h2>
+          <div className='center-align'>
+            <h2 className='center-align'>2018 Speakers</h2>
+            <div className='titleHR' />
+          </div>
           <Row>
             <Col s={12} l={12}>
               <h4 className='top-marg'>Charity Majors</h4>
