@@ -6,13 +6,29 @@ class Sponsors extends Component {
     return (
       <div className='container sponsors' id='top'>
         <div className='container'>
-          <h2 className='center-align'>2018 Sponsors</h2>
-          <Row className='valign-wrapper'>
+          <div className='center-align'>
+            <h2>2018 Sponsors</h2>
+            <div className='titleHR' />
+          </div>
+          <h3 className='center-align'>Headline Sponsors</h3>
+          <Row className='valign-wrapper top-marg'>
             <Col s={12} l={4}>
               <a href='https://azure.microsoft.com/en-us/' target='_blank' rel='noopener noreferrer'><img src={'./media/sponsors/MSAzure.png'} alt={'Microsoft Azure'} className='responsive-img' /></a>
             </Col>
             <Col s={12} l={4}>
               <a href='https://aws.amazon.com/' target='_blank' rel='noopener noreferrer'><img src={'./media/sponsors/aws.png'} alt={'AWS'} className='responsive-img' /></a>
+            </Col>
+            <Col s={12} l={4}>
+            </Col>
+          </Row>
+          <div className='small-space'></div>
+          <h4 className='center-align'>Community Sponsors</h4>
+          <Row className='valign-wrapper top-marg'>
+            <Col s={12} l={4}>
+
+            </Col>
+            <Col s={12} l={4}>
+              <a href='https://www.pulumi.com/' target='_blank' rel='noopener noreferrer'><img src={'./media/sponsors/pulumi.png'} alt={'Pulumi'} className='responsive-img' /></a>
             </Col>
             <Col s={12} l={4}>
             </Col>
