@@ -70,6 +70,21 @@ class Speakers extends Component {
             </Col>
           </Row>
           <div className='divider' />
+          <Row>
+            <Col s={12} l={12}>
+              <h4 className='top-marg'>Will Plusnick</h4>
+              <h5 className='company'>IBM</h5>
+            </Col>
+            <Col s={12} l={9}>
+              <p>Will Plusnick is a developer advocate for IBM focusing on Kubernetes and serverless. He started to learn program as a child, but took a detour to do physics for a few years. After coming back to computing, he has been working in cloud services since 2015. Some of his favorite things outside of tech include hanging out with friends, sleeping in his own bed, and getting to experience new cultures through food.</p>
+              <p>Pronouns: he/him</p>
+              <h5><a href='https://twitter.com/willplusnick' target='_blank' rel='noopener noreferrer'><i className="fab fa-twitter"></i></a></h5>
+            </Col>
+            <Col s={12} l={3}>
+              <img src={'./media/speakers/will.jpg'} alt={'Will Plusnick'} className='responsive-img' />
+            </Col>
+          </Row>
+          <div className='divider' />
           <div className='space-foot' />
           <h3 className='center-align'>More speakers coming soon!</h3>
           <div className='space-foot' />
