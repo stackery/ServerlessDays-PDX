@@ -80,6 +80,10 @@ i {
   margin-top: 3vh;
 }
 
+.schedule .divider {
+  margin-bottom: 20px;
+}
+
 /* spacing */
 
 .sponsors .divider {
