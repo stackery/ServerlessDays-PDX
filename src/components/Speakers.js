@@ -21,7 +21,7 @@ class Speakers extends Component {
               <h5><a href='https://www.twitter.com/mipsytipsy' target='_blank' rel='noopener noreferrer'><i className="fab fa-twitter"></i></a><a href='https://www.linkedin.com/in/charity-majors-826b765/' target='_blank' rel='noopener noreferrer'><i className="fab fa-linkedin-in"></i></a></h5>
             </Col>
             <Col s={12} l={3}>
-              <img src={'./media/speakers/charity.jpg'} alt={'Charity Majors'} className='responsive-img' />
+              <img src={'./media/speakers/charity.jpg'} alt={'Charity Majors'} className='responsive-img circle' />
             </Col>
           </Row>
           <div className='divider' />
@@ -36,7 +36,7 @@ class Speakers extends Component {
               <h5><a href='https://twitter.com/chrismunns' target='_blank' rel='noopener noreferrer'><i className="fab fa-twitter"></i></a><a href='https://www.linkedin.com/in/chrismunns/' target='_blank' rel='noopener noreferrer'><i className="fab fa-linkedin-in"></i></a></h5>
             </Col>
             <Col s={12} l={3}>
-              <img src={'./media/speakers/chris.png'} alt={'Chris Munns'} className='responsive-img' />
+              <img src={'./media/speakers/chris.png'} alt={'Chris Munns'} className='responsive-img circle' />
             </Col>
           </Row>
           <div className='divider' />
@@ -51,7 +51,7 @@ class Speakers extends Component {
               <h5><a href='https://twitter.com/ewindisch' target='_blank' rel='noopener noreferrer'><i className="fab fa-twitter"></i></a><a href='https://www.linkedin.com/in/ewindisch/' target='_blank' rel='noopener noreferrer'><i className="fab fa-linkedin-in"></i></a></h5>
             </Col>
             <Col s={12} l={3}>
-              <img src={'./media/speakers/erica.jpg'} alt={'Erica Windisch'} className='responsive-img' />
+              <img src={'./media/speakers/erica.jpg'} alt={'Erica Windisch'} className='responsive-img circle' />
             </Col>
           </Row>
           <div className='divider' />
@@ -66,7 +66,7 @@ class Speakers extends Component {
               <h5><a href='https://twitter.com/kelseyhightower' target='_blank' rel='noopener noreferrer'><i className="fab fa-twitter"></i></a></h5>
             </Col>
             <Col s={12} l={3}>
-              <img src={'./media/speakers/kelsey.jpg'} alt={'Kelsey Hightower'} className='responsive-img' />
+              <img src={'./media/speakers/kelsey.jpg'} alt={'Kelsey Hightower'} className='responsive-img circle' />
             </Col>
           </Row>
           <div className='divider' />
@@ -76,12 +76,27 @@ class Speakers extends Component {
               <h5 className='company'>IBM</h5>
             </Col>
             <Col s={12} l={9}>
-              <p>Will Plusnick is a developer advocate for IBM focusing on Kubernetes and serverless. He started to learn program as a child, but took a detour to do physics for a few years. After coming back to computing, he has been working in cloud services since 2015. Some of his favorite things outside of tech include hanging out with friends, sleeping in his own bed, and getting to experience new cultures through food.</p>
+              <p>Will Plusnick is a developer advocate for IBM focusing on Kubernetes and serverless. He started to learn to program as a child, but took a detour to do physics for a few years. After coming back to computing, he has been working in cloud services since 2015. Some of his favorite things outside of tech include hanging out with friends, sleeping in his own bed, and getting to experience new cultures through food.</p>
               <p>Pronouns: he/him</p>
               <h5><a href='https://twitter.com/willplusnick' target='_blank' rel='noopener noreferrer'><i className="fab fa-twitter"></i></a></h5>
             </Col>
             <Col s={12} l={3}>
-              <img src={'./media/speakers/will.jpg'} alt={'Will Plusnick'} className='responsive-img' />
+              <img src={'./media/speakers/will.jpg'} alt={'Will Plusnick'} className='responsive-img circle' />
+            </Col>
+          </Row>
+          <div className='divider' />
+          <Row>
+            <Col s={12} l={12}>
+              <h4 className='top-marg'>Eduardo Laureano</h4>
+              <h5 className='company'>Microsoft</h5>
+            </Col>
+            <Col s={12} l={9}>
+              <p>Eduardo Laureano is the Principal PM Lead at Azure Functions for Microsoft. Beyond building serverless products at Azure, Eduardo has a wide range of experience at Microsoft covering services such as Bing (building ML classifiers) and many others. He also swims, bikes and runs occasionally.</p>
+              <p>Pronouns: he/him</p>
+              <h5><a href='https://twitter.com/eduardolaureano' target='_blank' rel='noopener noreferrer'><i className="fab fa-twitter"></i></a></h5>
+            </Col>
+            <Col s={12} l={3}>
+              <img src={'./media/speakers/eduardo.jpg'} alt={'Eduardo Laureano'} className='responsive-img circle' />
             </Col>
           </Row>
           <div className='divider' />
