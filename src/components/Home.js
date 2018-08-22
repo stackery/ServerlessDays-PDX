@@ -41,14 +41,46 @@ class Home extends Component {
             </Col>
           </Row>
           <div className='space' />
+          <h2 className='center-align'>2018 Speakers</h2>
+          <Row>
+            <Col s={4} l={2} className='center-align'>
+              <img src={'./media/speakers/kelsey.jpg'} alt={'Kelsey Hightower'} className='responsive-img circle' />
+              <h5>Kelsey Hightower</h5>
+              <p>Google</p>
+            </Col>
+            <Col s={4} l={2} className='center-align'>
+              <img src={'./media/speakers/eduardo.jpg'} alt={'Eduardo Laureano'} className='responsive-img circle' />
+              <h5>Eduardo Laureano</h5>
+              <p>Microsoft</p>
+            </Col>
+            <Col s={4} l={2} className='center-align'>
+              <img src={'./media/speakers/charity.jpg'} alt={'Charity Majors'} className='responsive-img circle' />
+              <h5>Charity Majors</h5>
+              <p>Honeycomb.io</p>
+            </Col>
+            <Col s={4} l={2} className='center-align'>
+              <img src={'./media/speakers/chris.png'} alt={'Chris Munns'} className='responsive-img circle' />
+              <h5>Chris Munns</h5>
+              <p>Amazon Web Services</p>
+            </Col>
+            <Col s={4} l={2} className='center-align'>
+              <img src={'./media/speakers/will.jpg'} alt={'Will Plusnick'} className='responsive-img circle' />
+              <h5>Will Plusnick</h5>
+              <p>IBM</p>
+            </Col>
+            <Col s={4} l={2} className='center-align'>
+              <img src={'./media/speakers/erica.jpg'} alt={'Erica Windisch'} className='responsive-img circle' />
+              <h5>Erica Windisch</h5>
+              <p>IOpipe</p>
+            </Col>
+          </Row>
           <div className='container'>
-            <h2 className='center-align'>Speakers announced</h2>
-            <p>Our first speakers have been announced! Visit the speakers page for updates as more speakers are confirmed.</p>
+            <p>Our first speakers have been announced! Visit the speakers page for updates and bios.</p>
             <div className='center-align'>
               <Scrollchor animate={{offset: -100, duration: 500}} to='#top'><Link className='btn-large top-marg' to='/speakers'>View Speakers</Link></Scrollchor>
             </div>
-            <div className='space' />
           </div>
+          <div className='space' />
           <div className='container'>
             <h2 className='center-align'>Join us in Portland!</h2>
             <p>ServerlessDays Portland will take place at <a href='https://www.pcs.org/' target='_blank' rel='noopener noreferrer'>The Armory</a> in downtown Portland on Monday, September 17, 2018.</p>

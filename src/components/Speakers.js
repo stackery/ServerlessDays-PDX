@@ -42,6 +42,21 @@ class Speakers extends Component {
           <div className='divider' />
           <Row>
             <Col s={12} l={12}>
+              <h4 className='top-marg'>Eduardo Laureano</h4>
+              <h5 className='company'>Microsoft</h5>
+            </Col>
+            <Col s={12} l={9}>
+              <p>Eduardo Laureano is the Principal PM Lead at Azure Functions for Microsoft. Beyond building serverless products at Azure, Eduardo has a wide range of experience at Microsoft covering services such as Bing (building ML classifiers) and many others. He also swims, bikes and runs occasionally.</p>
+              <p>Pronouns: he/him</p>
+              <h5><a href='https://twitter.com/eduardolaureano' target='_blank' rel='noopener noreferrer'><i className="fab fa-twitter"></i></a></h5>
+            </Col>
+            <Col s={12} l={3}>
+              <img src={'./media/speakers/eduardo.jpg'} alt={'Eduardo Laureano'} className='responsive-img circle' />
+            </Col>
+          </Row>
+          <div className='divider' />
+          <Row>
+            <Col s={12} l={12}>
               <h4 className='top-marg'>Erica Windisch</h4>
               <h5 className='company'>IOpipe</h5>
             </Col>
@@ -82,21 +97,6 @@ class Speakers extends Component {
             </Col>
             <Col s={12} l={3}>
               <img src={'./media/speakers/will.jpg'} alt={'Will Plusnick'} className='responsive-img circle' />
-            </Col>
-          </Row>
-          <div className='divider' />
-          <Row>
-            <Col s={12} l={12}>
-              <h4 className='top-marg'>Eduardo Laureano</h4>
-              <h5 className='company'>Microsoft</h5>
-            </Col>
-            <Col s={12} l={9}>
-              <p>Eduardo Laureano is the Principal PM Lead at Azure Functions for Microsoft. Beyond building serverless products at Azure, Eduardo has a wide range of experience at Microsoft covering services such as Bing (building ML classifiers) and many others. He also swims, bikes and runs occasionally.</p>
-              <p>Pronouns: he/him</p>
-              <h5><a href='https://twitter.com/eduardolaureano' target='_blank' rel='noopener noreferrer'><i className="fab fa-twitter"></i></a></h5>
-            </Col>
-            <Col s={12} l={3}>
-              <img src={'./media/speakers/eduardo.jpg'} alt={'Eduardo Laureano'} className='responsive-img circle' />
             </Col>
           </Row>
           <div className='divider' />
