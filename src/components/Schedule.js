@@ -40,7 +40,7 @@ class Schedule extends Component {
             <h4>9:20 am</h4>
           </Col>
           <Col s={2} l={2} className='center-align'>
-            <img src={'./media/unicorn_mascot.png'} alt={'logo'} className='responsive-img circle' width='100'/>
+            <img src={'./media/octo_mascot.png'} alt={'logo'} className='responsive-img circle' width='100'/>
           </Col>
           <Col s={2} l={8}>
             <h6>Chase Douglas & Ian Scofield</h6>
@@ -53,11 +53,11 @@ class Schedule extends Component {
             <h4>9:45 am</h4>
           </Col>
           <Col s={2} l={2} className='center-align'>
-            <img src={'./media/unicorn_mascot.png'} alt={'logo'} className='responsive-img circle' width='100'/>
+            <img src={'./media/octo_mascot.png'} alt={'logo'} className='responsive-img circle' width='100'/>
           </Col>
           <Col s={2} l={8}>
             <h6>Nitzan Shapira</h6>
-            <h4></h4>
+            <h4>What we should all worry about when monitoring serverless applications</h4>
           </Col>
         </Row>
         <div className='divider' />
@@ -83,7 +83,7 @@ class Schedule extends Component {
           </Col>
           <Col s={2} l={8}>
             <h6>Charity Majors</h6>
-            <h4></h4>
+            <h4>Observability (and responsibility) for serverless systems</h4>
           </Col>
         </Row>
         <div className='divider' />
@@ -96,7 +96,7 @@ class Schedule extends Component {
           </Col>
           <Col s={2} l={8}>
             <h6>Chris Munns</h6>
-            <h4></h4>
+            <h4>Serverless and DevOps, from the AWS horse’s mouth</h4>
           </Col>
         </Row>
         <div className='divider' />
@@ -109,7 +109,7 @@ class Schedule extends Component {
           </Col>
           <Col s={2} l={8}>
             <h6>Erica Windisch</h6>
-            <h4></h4>
+            <h4>Observability for better applications</h4>
           </Col>
         </Row>
         <div className='divider' />
@@ -135,7 +135,7 @@ class Schedule extends Component {
           </Col>
           <Col s={2} l={8}>
             <h6>Eduardo Laureano</h6>
-            <h4></h4>
+            <h4>Enterprise challenges for broader serverless adoption</h4>
           </Col>
         </Row>
         <div className='divider' />
@@ -148,7 +148,7 @@ class Schedule extends Component {
           </Col>
           <Col s={2} l={8}>
             <h6>Kelsey Hightower</h6>
-            <h4></h4>
+            <h4>Going Serverless with Google Cloud Functions</h4>
           </Col>
         </Row>
         <div className='divider' />
@@ -183,7 +183,7 @@ class Schedule extends Component {
             <h4>2:40 pm</h4>
           </Col>
           <Col s={2} l={2} className='center-align'>
-            <img src={'./media/unicorn_mascot.png'} alt={'logo'} className='responsive-img circle' width='100'/>
+            <img src={'./media/octo_mascot.png'} alt={'logo'} className='responsive-img circle' width='100'/>
           </Col>
           <Col s={2} l={8}>
             <h6>TBD</h6>
@@ -209,7 +209,7 @@ class Schedule extends Component {
             <h4>3:30 pm</h4>
           </Col>
           <Col s={2} l={2} className='center-align'>
-            <img src={'./media/unicorn_mascot.png'} alt={'logo'} className='responsive-img circle' width='100'/>
+            <img src={'./media/octo_mascot.png'} alt={'logo'} className='responsive-img circle' width='100'/>
           </Col>
           <Col s={2} l={8}>
             <h6>TBD</h6>
