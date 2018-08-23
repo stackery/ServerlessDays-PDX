@@ -200,7 +200,7 @@ class Schedule extends Component {
           </Col>
           <Col s={2} l={8}>
             <h6>Toby Fee</h6>
-            <h4>Your first serverless app: Image processing with Lambdas</h4>
+            <h4>Lambdas in the real world: serverless development as part of a team</h4>
           </Col>
         </Row>
         <div className='divider' />
