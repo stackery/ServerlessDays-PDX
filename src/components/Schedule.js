@@ -44,7 +44,7 @@ class Schedule extends Component {
           </Col>
           <Col s={2} l={8}>
             <h6>Chase Douglas & Ian Scofield</h6>
-            <h4>TBD</h4>
+            <h4>I can haz serverless? A real-world example of integrating serverless into existing infrastructure</h4>
           </Col>
         </Row>
         <div className='divider' />
