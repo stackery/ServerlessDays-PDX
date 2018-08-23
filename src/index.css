@@ -84,6 +84,10 @@ i {
   margin-bottom: 20px;
 }
 
+.schedule h6+h4 {
+  margin-top: 0;
+}
+
 /* spacing */
 
 .sponsors .divider {

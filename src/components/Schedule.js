@@ -44,7 +44,7 @@ class Schedule extends Component {
           </Col>
           <Col s={2} l={8}>
             <h6>Chase Douglas & Ian Scofield</h6>
-            <h4></h4>
+            <h4>TBD</h4>
           </Col>
         </Row>
         <div className='divider' />
@@ -53,7 +53,7 @@ class Schedule extends Component {
             <h4>9:45 am</h4>
           </Col>
           <Col s={2} l={2} className='center-align'>
-            <img src={'./media/octo_mascot.png'} alt={'logo'} className='responsive-img circle' width='100'/>
+            <img src={'./media/speakers/nitzan.jpg'} alt={'logo'} className='responsive-img circle' width='100'/>
           </Col>
           <Col s={2} l={8}>
             <h6>Nitzan Shapira</h6>
@@ -161,7 +161,7 @@ class Schedule extends Component {
           </Col>
           <Col s={2} l={8}>
             <h6>Patrick Plusnick</h6>
-            <h4></h4>
+            <h4>TBD</h4>
           </Col>
         </Row>
         <div className='divider' />
@@ -200,7 +200,7 @@ class Schedule extends Component {
           </Col>
           <Col s={2} l={8}>
             <h6>Toby Fee</h6>
-            <h4></h4>
+            <h4>Your first serverless app: Image processing with Lambdas</h4>
           </Col>
         </Row>
         <div className='divider' />
