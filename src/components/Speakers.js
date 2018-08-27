@@ -102,6 +102,21 @@ class Speakers extends Component {
           <div className='divider' />
           <Row>
             <Col s={12} l={12}>
+              <h4 className='top-marg'>Nitzan Shapira</h4>
+              <h5 className='company'>Epsagon</h5>
+            </Col>
+            <Col s={12} l={9}>
+              <p>Nitzan Shapira is a software engineer with over 12 years of experience in programming, machine learning, cyber-security, and reverse engineering. During the last year, he has been working on Epsagon as a co-founder and the CEO. Epsagon is focused on bringing observability to serverless cloud applications, using distributed tracing and AI technologies, tackling the unique challenges of such environments. Apart from co-founding Epsagon, he enjoys playing the piano, is a traveling enthusiast, an experienced chess player, and is addicted to sports.</p>
+              <p>Pronouns: he/him</p>
+              <h5><a href='https://twitter.com/nitzanshapira' target='_blank' rel='noopener noreferrer'><i className="fab fa-twitter"></i></a></h5>
+            </Col>
+            <Col s={12} l={3}>
+              <img src={'./media/speakers/nitzan.jpg'} alt={'Nitzan Shapira'} className='responsive-img circle' />
+            </Col>
+          </Row>
+          <div className='divider' />
+          <Row>
+            <Col s={12} l={12}>
               <h4 className='top-marg'>Toby Fee</h4>
               <h5 className='company'>Stackery</h5>
             </Col>
