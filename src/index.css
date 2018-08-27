@@ -88,6 +88,10 @@ i {
   margin-top: 0;
 }
 
+.speaker-pics img {
+  max-width: 200px;
+}
+
 /* spacing */
 
 .sponsors .divider {

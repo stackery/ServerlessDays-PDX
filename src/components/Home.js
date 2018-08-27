@@ -41,41 +41,59 @@ class Home extends Component {
             </Col>
           </Row>
           <div className='space' />
-          <h2 className='center-align'>2018 Speakers</h2>
-          <Row>
-            <Col s={4} l={2} className='center-align'>
-              <img src={'./media/speakers/kelsey.jpg'} alt={'Kelsey Hightower'} className='responsive-img circle' />
-              <h5>Kelsey Hightower</h5>
-              <p>Google</p>
-            </Col>
-            <Col s={4} l={2} className='center-align'>
-              <img src={'./media/speakers/eduardo.jpg'} alt={'Eduardo Laureano'} className='responsive-img circle' />
-              <h5>Eduardo Laureano</h5>
-              <p>Microsoft</p>
-            </Col>
-            <Col s={4} l={2} className='center-align'>
-              <img src={'./media/speakers/charity.jpg'} alt={'Charity Majors'} className='responsive-img circle' />
-              <h5>Charity Majors</h5>
-              <p>Honeycomb.io</p>
-            </Col>
-            <Col s={4} l={2} className='center-align'>
-              <img src={'./media/speakers/chris.png'} alt={'Chris Munns'} className='responsive-img circle' />
-              <h5>Chris Munns</h5>
-              <p>Amazon Web Services</p>
-            </Col>
-            <Col s={4} l={2} className='center-align'>
-              <img src={'./media/speakers/will.jpg'} alt={'Will Plusnick'} className='responsive-img circle' />
-              <h5>Will Plusnick</h5>
-              <p>IBM</p>
-            </Col>
-            <Col s={4} l={2} className='center-align'>
-              <img src={'./media/speakers/erica.jpg'} alt={'Erica Windisch'} className='responsive-img circle' />
-              <h5>Erica Windisch</h5>
-              <p>IOpipe</p>
-            </Col>
-          </Row>
-          <div className='container'>
-            <p>Our first speakers have been announced! Visit the speakers page for updates and bios.</p>
+          <div className='container speaker-pics'>
+            <h2 className='center-align'>2018 Speakers</h2>
+            <Row>
+              <Col s={4} l={4} className='center-align'>
+                <img src={'./media/speakers/chase.jpg'} alt={'Chase Douglas'} className='responsive-img circle' />
+                <h5>Chase Douglas</h5>
+                <p>Stackery</p>
+              </Col>
+              <Col s={4} l={4} className='center-align'>
+                <img src={'./media/speakers/kelsey.jpg'} alt={'Kelsey Hightower'} className='responsive-img circle' />
+                <h5>Kelsey Hightower</h5>
+                <p>Google</p>
+              </Col>
+              <Col s={4} l={4} className='center-align'>
+                <img src={'./media/speakers/toby.jpg'} alt={'Toby Fee'} className='responsive-img circle' />
+                <h5>Toby Fee</h5>
+                <p>Stackery</p>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={4} l={4} className='center-align'>
+                <img src={'./media/speakers/eduardo.jpg'} alt={'Eduardo Laureano'} className='responsive-img circle' />
+                <h5>Eduardo Laureano</h5>
+                <p>Microsoft</p>
+              </Col>
+              <Col s={4} l={4} className='center-align'>
+                <img src={'./media/speakers/charity.jpg'} alt={'Charity Majors'} className='responsive-img circle' />
+                <h5>Charity Majors</h5>
+                <p>Honeycomb.io</p>
+              </Col>
+              <Col s={4} l={4} className='center-align'>
+                <img src={'./media/speakers/chris.png'} alt={'Chris Munns'} className='responsive-img circle' />
+                <h5>Chris Munns</h5>
+                <p>Amazon Web Services</p>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={4} l={4} className='center-align'>
+                <img src={'./media/speakers/will.jpg'} alt={'Will Plusnick'} className='responsive-img circle' />
+                <h5>Will Plusnick</h5>
+                <p>IBM</p>
+              </Col>
+              <Col s={4} l={4} className='center-align'>
+                <img src={'./media/speakers/nitzan.jpg'} alt={'Nitzan Shapira'} className='responsive-img circle' />
+                <h5>Nitzan Shapira</h5>
+                <p>Epsagon</p>
+              </Col>
+              <Col s={4} l={4} className='center-align'>
+                <img src={'./media/speakers/erica.jpg'} alt={'Erica Windisch'} className='responsive-img circle' />
+                <h5>Erica Windisch</h5>
+                <p>IOpipe</p>
+              </Col>
+            </Row>
             <div className='center-align'>
               <Scrollchor animate={{offset: -100, duration: 500}} to='#top'><Link className='btn-large top-marg' to='/speakers'>View Speakers</Link></Scrollchor>
             </div>
