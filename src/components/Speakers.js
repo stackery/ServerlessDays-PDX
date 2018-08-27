@@ -27,6 +27,21 @@ class Speakers extends Component {
           <div className='divider' />
           <Row>
             <Col s={12} l={12}>
+              <h4 className='top-marg'>Chase Douglas</h4>
+              <h5 className='company'>Stackery</h5>
+            </Col>
+            <Col s={12} l={9}>
+              <p>Chase Douglas is the co-founder and CTO of Stackery.io, a devops toolkit for organizations building serverless applications and services. His experience spans the gamut of technical and managerial, specifically focused on how teams of developers build products collaboratively. In prior roles he has been a VP of engineering at a web application security company, technical architect of the New Relic Browser product, and an architect of multitouch on the Linux desktop.</p>
+              <p>Pronouns: he/him</p>
+              <h5><a href='https://twitter.com/txase' target='_blank' rel='noopener noreferrer'><i className="fab fa-twitter"></i></a><a href='https://www.linkedin.com/in/chasedouglas/' target='_blank' rel='noopener noreferrer'><i className="fab fa-linkedin-in"></i></a></h5>
+            </Col>
+            <Col s={12} l={3}>
+              <img src={'./media/speakers/chase.jpg'} alt={'Chase Douglas'} className='responsive-img circle' />
+            </Col>
+          </Row>
+          <div className='divider' />
+          <Row>
+            <Col s={12} l={12}>
               <h4 className='top-marg'>Chris Munns</h4>
               <h5 className='company'>Amazon Web Services</h5>
             </Col>
@@ -82,6 +97,21 @@ class Speakers extends Component {
             </Col>
             <Col s={12} l={3}>
               <img src={'./media/speakers/kelsey.jpg'} alt={'Kelsey Hightower'} className='responsive-img circle' />
+            </Col>
+          </Row>
+          <div className='divider' />
+          <Row>
+            <Col s={12} l={12}>
+              <h4 className='top-marg'>Toby Fee</h4>
+              <h5 className='company'>Stackery</h5>
+            </Col>
+            <Col s={12} l={9}>
+              <p>Toby is a community developer at Stackery. Previously a web developer for several years, his experience is mainly in user experimentation and data management. He’s the author of “The JQuery Spellbook” due out in fall.</p>
+              <p>Pronouns: he/him</p>
+              <h5><a href='https://twitter.com/tobyfee' target='_blank' rel='noopener noreferrer'><i className="fab fa-twitter"></i></a><a href='https://www.linkedin.com/in/tobyfee' target='_blank' rel='noopener noreferrer'><i className="fab fa-linkedin-in"></i></a></h5>
+            </Col>
+            <Col s={12} l={3}>
+              <img src={'./media/speakers/toby.jpg'} alt={'Toby Fee'} className='responsive-img circle' />
             </Col>
           </Row>
           <div className='divider' />

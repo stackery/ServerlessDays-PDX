@@ -193,7 +193,7 @@ class Schedule extends Component {
         <div className='divider' />
         <Row>
           <Col s={2} l={2} className='center-align'>
-            <h4>3:25 pm</h4>
+            <h4>3:05 pm</h4>
           </Col>
           <Col s={2} l={2} className='center-align'>
             <img src={'./media/speakers/toby.jpg'} alt={'logo'} className='responsive-img circle' width='100'/>
