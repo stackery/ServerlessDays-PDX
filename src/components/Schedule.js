@@ -53,11 +53,11 @@ class Schedule extends Component {
             <h4>9:45 am</h4>
           </Col>
           <Col s={1} m={2} l={2} className='center-align'>
-            <img src={'./media/speakers/nitzan.jpg'} alt={'logo'} className='responsive-img circle hide-on-small-only' width='100'/>
+            <img src={'./media/speakers/kelsey.jpg'} alt={'logo'} className='responsive-img circle hide-on-small-only' width='100'/>
           </Col>
           <Col s={8} l={8}>
-            <h6>Nitzan Shapira</h6>
-            <h4>What we should all worry about when monitoring serverless applications</h4>
+            <h6>Kelsey Hightower</h6>
+            <h4>Going Serverless with Google Cloud Functions</h4>
           </Col>
         </Row>
         <div className='divider' />
@@ -144,11 +144,11 @@ class Schedule extends Component {
             <h4>1:10 pm</h4>
           </Col>
           <Col s={1} m={2} l={2} className='center-align'>
-            <img src={'./media/speakers/kelsey.jpg'} alt={'logo'} className='responsive-img circle hide-on-small-only' width='100'/>
+            <img src={'./media/speakers/nitzan.jpg'} alt={'logo'} className='responsive-img circle hide-on-small-only' width='100'/>
           </Col>
           <Col s={8} l={8}>
-            <h6>Kelsey Hightower</h6>
-            <h4>Going Serverless with Google Cloud Functions</h4>
+            <h6>Nitzan Shapira</h6>
+            <h4>What we should all worry about when monitoring serverless applications</h4>
           </Col>
         </Row>
         <div className='divider' />
