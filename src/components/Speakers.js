@@ -121,8 +121,8 @@ class Speakers extends Component {
               <h5 className='company'>Stackery</h5>
             </Col>
             <Col s={12} l={9}>
-              <p>Toby is a community developer at Stackery. Previously a web developer for several years, his experience is mainly in user experimentation and data management. He’s the author of “The JQuery Spellbook” due out in fall.</p>
-              <p>Pronouns: he/him</p>
+              <p>Toby is a community developer at Stackery. Previously a web developer for several years, her experience is mainly in user experimentation and data management. She’s the author of “The JQuery Spellbook” due out in fall.</p>
+              <p>Pronouns: she/her</p>
               <h5><a href='https://twitter.com/tobyfee' target='_blank' rel='noopener noreferrer'><i className="fab fa-twitter"></i></a><a href='https://www.linkedin.com/in/tobyfee' target='_blank' rel='noopener noreferrer'><i className="fab fa-linkedin-in"></i></a></h5>
             </Col>
             <Col s={12} l={3}>
