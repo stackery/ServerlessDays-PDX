@@ -25,10 +25,20 @@ class Sponsors extends Component {
           <h4 className='center-align'>Community Sponsors</h4>
           <Row className='valign-wrapper top-marg'>
             <Col s={12} l={4}>
-
             </Col>
             <Col s={12} l={4}>
               <a href='https://www.pulumi.com/' target='_blank' rel='noopener noreferrer'><img src={'./media/sponsors/pulumi.png'} alt={'Pulumi'} className='responsive-img' /></a>
+            </Col>
+            <Col s={12} l={4}>
+            </Col>
+          </Row>
+          <div className='small-space'></div>
+          <h4 className='center-align'>Media Sponsors</h4>
+          <Row className='valign-wrapper top-marg'>
+            <Col s={12} l={4}>
+            </Col>
+            <Col s={12} l={4}>
+              <a href='https://thenewstack.io/' target='_blank' rel='noopener noreferrer'><img src={'./media/sponsors/thenewstack.png'} alt={'The New Stack'} className='responsive-img' /></a>
             </Col>
             <Col s={12} l={4}>
             </Col>
