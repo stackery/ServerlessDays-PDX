@@ -98,6 +98,10 @@ i {
   margin: 10vh 0 5vh 0 !important;
 }
 
+.sponsors a img {
+  padding: 0 30px;
+}
+
 .titleHR {
   height: 1px;
   overflow: hidden;

@@ -19,6 +19,7 @@ class Sponsors extends Component {
               <a href='https://aws.amazon.com/' target='_blank' rel='noopener noreferrer'><img src={'./media/sponsors/aws.png'} alt={'AWS'} className='responsive-img' /></a>
             </Col>
             <Col s={12} l={4}>
+              <a href='https://ibm.com/' target='_blank' rel='noopener noreferrer'><img src={'./media/sponsors/ibm.jpg'} alt={'IBM'} className='responsive-img' /></a>
             </Col>
           </Row>
           <div className='small-space'></div>
