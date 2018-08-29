@@ -106,7 +106,7 @@ class Speakers extends Component {
               <h5 className='company'>Epsagon</h5>
             </Col>
             <Col s={12} l={9}>
-              <p>Nitzan Shapira is a software engineer with over 12 years of experience in programming, machine learning, cyber-security, and reverse engineering. During the last year, he has been working on Epsagon as a co-founder and the CEO. Epsagon is focused on bringing observability to serverless cloud applications, using distributed tracing and AI technologies, tackling the unique challenges of such environments. Apart from co-founding Epsagon, he enjoys playing the piano, is a traveling enthusiast, an experienced chess player, and is addicted to sports.</p>
+              <p>Nitzan Shapira is a co-founder and the CEO at Epsagon, focused on bringing observability to serverless cloud applications. Nitzan is also a software engineer with over 12 years of experience in programming, machine learning, cyber-security, and reverse engineering. Using distributed tracing and AI technologies, his team is tackling the unique observability challenges in serverless environments. Apart from co-founding Epsagon, Nitzan also enjoys playing the piano, he is a traveling enthusiast, an experienced chess player, and addicted to sports.</p>
               <p>Pronouns: he/him</p>
               <h5><a href='https://twitter.com/nitzanshapira' target='_blank' rel='noopener noreferrer'><i className="fab fa-twitter"></i></a></h5>
             </Col>
