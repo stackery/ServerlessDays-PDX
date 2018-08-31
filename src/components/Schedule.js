@@ -209,11 +209,11 @@ class Schedule extends Component {
             <h4>3:30 pm</h4>
           </Col>
           <Col s={1} m={2} l={2} className='center-align'>
-            <img src={'./media/octo_mascot.png'} alt={'logo'} className='responsive-img circle hide-on-small-only' width='100'/>
+            <img src={'./media/speakers/tal.jpg'} alt={'logo'} className='responsive-img circle hide-on-small-only' width='100'/>
           </Col>
           <Col s={8} l={8}>
-            <h6>TBD</h6>
-            <h4>TBD</h4>
+            <h6>Tal Melamed</h6>
+            <h4>Your Apps Have Gone Serverless. Has Your Security?</h4>
           </Col>
         </Row>
         <div className='divider' />

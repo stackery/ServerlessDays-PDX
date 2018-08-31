@@ -117,6 +117,21 @@ class Speakers extends Component {
           <div className='divider' />
           <Row>
             <Col s={12} l={12}>
+              <h4 className='top-marg'>Tal Melamed</h4>
+              <h5 className='company'>Protego</h5>
+            </Col>
+            <Col s={12} l={9}>
+              <p>Tal has 15 years of experience in the information security field, specializing in security research and vulnerability assessment. Prior to being the Head of Security Research at Protego, Tal was a tech leader at AppSec Labs, leading and executing a variety of security projects for serverless, IoT, mobile, web, and client applications, as well as working for leading security organizations such as Synack, CheckPoint, and RSA.</p>
+              <p>Pronouns: he/him</p>
+              <h5><a href='https://twitter.com/_nu11p0inter' target='_blank' rel='noopener noreferrer'><i className="fab fa-twitter"></i></a><a href='https://www.linkedin.com/in/talmelamed/' target='_blank' rel='noopener noreferrer'><i className="fab fa-linkedin-in"></i></a></h5>
+            </Col>
+            <Col s={12} l={3}>
+              <img src={'./media/speakers/tal.jpg'} alt={'Tal Melamed'} className='responsive-img circle' />
+            </Col>
+          </Row>
+          <div className='divider' />
+          <Row>
+            <Col s={12} l={12}>
               <h4 className='top-marg'>Toby Fee</h4>
               <h5 className='company'>Stackery</h5>
             </Col>
