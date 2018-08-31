@@ -57,7 +57,7 @@ class Schedule extends Component {
           </Col>
           <Col s={8} l={8}>
             <h6>Kelsey Hightower</h6>
-            <h4>Going Serverless with Google Cloud Functions</h4>
+            <h4>Going serverless with Google Cloud Functions</h4>
           </Col>
         </Row>
         <div className='divider' />
@@ -160,8 +160,8 @@ class Schedule extends Component {
             <img src={'./media/speakers/will.jpg'} alt={'logo'} className='responsive-img circle hide-on-small-only' width='100'/>
           </Col>
           <Col s={8} l={8}>
-            <h6>Patrick Plusnick</h6>
-            <h4>TBD</h4>
+            <h6>Will Plusnick</h6>
+            <h4>Serverless: the missing manual</h4>
           </Col>
         </Row>
         <div className='divider' />
@@ -213,7 +213,7 @@ class Schedule extends Component {
           </Col>
           <Col s={8} l={8}>
             <h6>Tal Melamed</h6>
-            <h4>Your Apps Have Gone Serverless. Has Your Security?</h4>
+            <h4>Your apps have gone serverless. Has your security?</h4>
           </Col>
         </Row>
         <div className='divider' />

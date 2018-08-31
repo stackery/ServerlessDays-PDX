@@ -25,12 +25,15 @@ class Sponsors extends Component {
           <div className='small-space'></div>
           <h4 className='center-align'>Community Sponsors</h4>
           <Row className='valign-wrapper top-marg'>
-            <Col s={12} l={4}>
+            <Col s={12} l={2}>
             </Col>
             <Col s={12} l={4}>
               <a href='https://www.pulumi.com/' target='_blank' rel='noopener noreferrer'><img src={'./media/sponsors/pulumi.png'} alt={'Pulumi'} className='responsive-img' /></a>
             </Col>
             <Col s={12} l={4}>
+              <a href='https://www.iopipe.com/' target='_blank' rel='noopener noreferrer'><img src={'./media/sponsors/io_logo.png'} alt={'IO Pipe'} className='responsive-img' /></a>
+            </Col>
+            <Col s={12} l={2}>
             </Col>
           </Row>
           <div className='small-space'></div>
