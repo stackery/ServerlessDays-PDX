@@ -72,12 +72,17 @@ class Home extends Component {
                 <p>Honeycomb.io</p>
               </Col>
               <Col s={4} l={4} className='center-align'>
+                <img src={'./media/speakers/tal.jpg'} alt={'Tal Melamed'} className='responsive-img circle' />
+                <h5>Tal Melamed</h5>
+                <p>Protego</p>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={4} l={4} className='center-align'>
                 <img src={'./media/speakers/chris.png'} alt={'Chris Munns'} className='responsive-img circle' />
                 <h5>Chris Munns</h5>
                 <p>Amazon Web Services</p>
               </Col>
-            </Row>
-            <Row>
               <Col s={4} l={4} className='center-align'>
                 <img src={'./media/speakers/will.jpg'} alt={'Will Plusnick'} className='responsive-img circle' />
                 <h5>Will Plusnick</h5>
