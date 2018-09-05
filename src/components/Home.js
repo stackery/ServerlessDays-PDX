@@ -32,12 +32,12 @@ class Home extends Component {
             <Col s={12} m={4} l={4} className='center-align top-marg'>
               <img src={'./media/anteater_mascot.png'} alt={'ServerlessDays mascot'} className='responsive-img not-wide' />
               <h4 className='top-marg'>Serverless for everyone</h4>
-              <p>The single day, single track conference for everyone where real users showcase their solution to common problems using serverless platforms.</p>
+              <p>The single day, single track conference for everyone where real users showcase their solutions to common problems using serverless platforms.</p>
             </Col>
             <Col s={12} m={4} l={4} className='center-align top-marg'>
               <img src={'./media/moth_mascot.png'} alt={'ServerlessDays mascot'} className='responsive-img not-wide' />
               <h4 className='top-marg'>Join the community</h4>
-              <p>Whether you are a beginner or an expert, meet like minded-people and build your network in the global cloud society.</p>
+              <p>Whether you're a beginner or an expert, meet like-minded people and build your network in this global cloud society.</p>
             </Col>
           </Row>
           <div className='space' />
@@ -140,7 +140,7 @@ class Home extends Component {
           <div className='space' />
           <div className='container'>
             <h2 className='center-align'>Join us in Portland!</h2>
-            <p>ServerlessDays Portland will take place at <a href='https://www.pcs.org/' target='_blank' rel='noopener noreferrer'>The Armory</a> in downtown Portland on Monday, September 17, 2018.</p>
+            <p>ServerlessDays Portland will take place at <a href='https://www.pcs.org/' target='_blank' rel='noopener noreferrer'>The Armory</a> in downtown Portland on Monday, September 17, 2018. View the full event schedule <Scrollchor animate={{offset: -100, duration: 500}} to='#top'><Link to='/schedule'>here</Link></Scrollchor>.</p>
             <p>Ellen Bye Studio at The Armory <br />128 Northwest 11th Avenue <br />Portland, OR 97209</p>
             <div className='space' />
           </div>
