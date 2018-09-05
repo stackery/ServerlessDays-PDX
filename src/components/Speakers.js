@@ -11,7 +11,7 @@ class Speakers extends Component {
             <div className='titleHR' />
           </div>
           <Row>
-            <Col s={12} l={12}>
+            <Col s={12} l={12} id='charity'>
               <h4 className='top-marg'>Charity Majors</h4>
               <h5 className='company'>Honeycomb.io</h5>
             </Col>
@@ -26,7 +26,7 @@ class Speakers extends Component {
           </Row>
           <div className='divider' />
           <Row>
-            <Col s={12} l={12}>
+            <Col s={12} l={12} id='chase'>
               <h4 className='top-marg'>Chase Douglas</h4>
               <h5 className='company'>Stackery</h5>
             </Col>
@@ -41,7 +41,7 @@ class Speakers extends Component {
           </Row>
           <div className='divider' />
           <Row>
-            <Col s={12} l={12}>
+            <Col s={12} l={12} id='chris'>
               <h4 className='top-marg'>Chris Munns</h4>
               <h5 className='company'>Amazon Web Services</h5>
             </Col>
@@ -56,7 +56,7 @@ class Speakers extends Component {
           </Row>
           <div className='divider' />
           <Row>
-            <Col s={12} l={12}>
+            <Col s={12} l={12} id='eduardo'>
               <h4 className='top-marg'>Eduardo Laureano</h4>
               <h5 className='company'>Microsoft</h5>
             </Col>
@@ -71,7 +71,7 @@ class Speakers extends Component {
           </Row>
           <div className='divider' />
           <Row>
-            <Col s={12} l={12}>
+            <Col s={12} l={12} id='erica'>
               <h4 className='top-marg'>Erica Windisch</h4>
               <h5 className='company'>IOpipe</h5>
             </Col>
@@ -86,7 +86,7 @@ class Speakers extends Component {
           </Row>
           <div className='divider' />
           <Row>
-            <Col s={12} l={12}>
+            <Col s={12} l={12} id='kelsey'>
               <h4 className='top-marg'>Kelsey Hightower</h4>
               <h5 className='company'>Google</h5>
             </Col>
@@ -101,7 +101,7 @@ class Speakers extends Component {
           </Row>
           <div className='divider' />
           <Row>
-            <Col s={12} l={12}>
+            <Col s={12} l={12} id='ian'>
               <h4 className='top-marg'>Ian Scofield</h4>
               <h5 className='company'>Amazon Web Services</h5>
             </Col>
@@ -116,7 +116,7 @@ class Speakers extends Component {
           </Row>
           <div className='divider' />
           <Row>
-            <Col s={12} l={12}>
+            <Col s={12} l={12} id='nitzan'>
               <h4 className='top-marg'>Nitzan Shapira</h4>
               <h5 className='company'>Epsagon</h5>
             </Col>
@@ -131,7 +131,7 @@ class Speakers extends Component {
           </Row>
           <div className='divider' />
           <Row>
-            <Col s={12} l={12}>
+            <Col s={12} l={12} id='tal'>
               <h4 className='top-marg'>Tal Melamed</h4>
               <h5 className='company'>Protego</h5>
             </Col>
@@ -146,7 +146,7 @@ class Speakers extends Component {
           </Row>
           <div className='divider' />
           <Row>
-            <Col s={12} l={12}>
+            <Col s={12} l={12} id='toby'>
               <h4 className='top-marg'>Toby Fee</h4>
               <h5 className='company'>Stackery</h5>
             </Col>
@@ -161,7 +161,7 @@ class Speakers extends Component {
           </Row>
           <div className='divider' />
           <Row>
-            <Col s={12} l={12}>
+            <Col s={12} l={12} id='will'>
               <h4 className='top-marg'>Will Plusnick</h4>
               <h5 className='company'>IBM</h5>
             </Col>
