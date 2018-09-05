@@ -102,6 +102,21 @@ class Speakers extends Component {
           <div className='divider' />
           <Row>
             <Col s={12} l={12}>
+              <h4 className='top-marg'>Ian Scofield</h4>
+              <h5 className='company'>Amazon Web Services</h5>
+            </Col>
+            <Col s={12} l={9}>
+              <p>Ian Scofield is a Partner Solutions Architect at AWS, based in Seattle, WA who works with customers to help them build well-architected solutions. He works with Partners that provide tooling and services that help customers build and run serverless applications.  Prior to working at AWS, Ian was a Signal Officer in the United States Army and enjoys being outdoors, skiing and hiking.</p>
+              <p>Pronouns: he/him</p>
+              <h5><a href='https://www.linkedin.com/in/iscofield' target='_blank' rel='noopener noreferrer'><i className="fab fa-linkedin-in"></i></a></h5>
+            </Col>
+            <Col s={12} l={3}>
+              <img src={'./media/speakers/ian.jpg'} alt={'Ian Scofield'} className='responsive-img circle' />
+            </Col>
+          </Row>
+          <div className='divider' />
+          <Row>
+            <Col s={12} l={12}>
               <h4 className='top-marg'>Nitzan Shapira</h4>
               <h5 className='company'>Epsagon</h5>
             </Col>

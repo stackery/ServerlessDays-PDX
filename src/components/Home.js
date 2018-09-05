@@ -89,6 +89,13 @@ class Home extends Component {
                 <p>IBM</p>
               </Col>
               <Col s={4} l={4} className='center-align'>
+                <img src={'./media/speakers/ian.jpg'} alt={'Ian Scofield'} className='responsive-img circle' />
+                <h5>Ian Scofield</h5>
+                <p>Amazon Web Services</p>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={4} l={4} className='center-align'>
                 <img src={'./media/speakers/nitzan.jpg'} alt={'Nitzan Shapira'} className='responsive-img circle' />
                 <h5>Nitzan Shapira</h5>
                 <p>Epsagon</p>
@@ -97,6 +104,11 @@ class Home extends Component {
                 <img src={'./media/speakers/erica.jpg'} alt={'Erica Windisch'} className='responsive-img circle' />
                 <h5>Erica Windisch</h5>
                 <p>IOpipe</p>
+              </Col>
+              <Col s={4} l={4} className='center-align'>
+                <img src={'./media/octo_mascot.png'} alt={'TBA'} className='responsive-img circle' />
+                <h5>TBA</h5>
+                <p>TBA</p>
               </Col>
             </Row>
             <div className='center-align'>
