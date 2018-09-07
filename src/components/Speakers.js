@@ -86,21 +86,6 @@ class Speakers extends Component {
           </Row>
           <div className='divider' />
           <Row>
-            <Col s={12} l={12} id='kelsey'>
-              <h4 className='top-marg'>Kelsey Hightower</h4>
-              <h5 className='company'>Google</h5>
-            </Col>
-            <Col s={12} l={9}>
-              <p>Kelsey is a technologist working at Google on simple solutions to hard problems. He has worn every hat possible throughout his career in tech, and enjoys leadership roles focused on making things happen and shipping software. Kelsey is a strong open source advocate focused on building simple tools that make people smile.</p>
-              <p>Pronouns: he/him</p>
-              <h5><a href='https://twitter.com/kelseyhightower' target='_blank' rel='noopener noreferrer'><i className="fab fa-twitter"></i></a></h5>
-            </Col>
-            <Col s={12} l={3}>
-              <img src={'./media/speakers/kelsey.jpg'} alt={'Kelsey Hightower'} className='responsive-img circle' />
-            </Col>
-          </Row>
-          <div className='divider' />
-          <Row>
             <Col s={12} l={12} id='ian'>
               <h4 className='top-marg'>Ian Scofield</h4>
               <h5 className='company'>Amazon Web Services</h5>
@@ -112,6 +97,36 @@ class Speakers extends Component {
             </Col>
             <Col s={12} l={3}>
               <img src={'./media/speakers/ian.jpg'} alt={'Ian Scofield'} className='responsive-img circle' />
+            </Col>
+          </Row>
+          <div className='divider' />
+          <Row>
+            <Col s={12} l={12} id='john'>
+              <h4 className='top-marg'>John Miller</h4>
+              <h5 className='company'>Fauna</h5>
+            </Col>
+            <Col s={12} l={9}>
+              <p>John Miller III is a senior developer at Fauna since 2017 and focuses on driving advanced technologies into the core server. Prior to Fauna, John spent 28 years as a Senior Technical Staff Member (STSM) at IBM. In his last year, he lead IBM’s Analytics Platform development group and brought advanced technology to the Next Generation Analytic Platform, which served the needs of data engineers and data scientists. In addition, he spent 26 years with Informix and 7 years as chief architect where he has designed many components and features, including the Hybrid JSON functionality. John has also focused on the embed space, including a completed redesign of the Informix administration system and the OpenAdmin Tool for Informix. He has led key improvements in database backups, high availability, benchmarking, scale up and scale out architectures, and has patents granted and pending in these areas. John was also a member of the IBM Academy of Technology, on numerous architecture and technical promotion boards, and involved in many cross IBM technology initiatives.</p>
+              <p>Pronouns: he/him</p>
+              <h5><a href='https://www.linkedin.com/in/john-miller-7b9b21' target='_blank' rel='noopener noreferrer'><i className="fab fa-linkedin-in"></i></a></h5>
+            </Col>
+            <Col s={12} l={3}>
+              <img src={'./media/speakers/john.png'} alt={'John Miller'} className='responsive-img circle' />
+            </Col>
+          </Row>
+          <div className='divider' />
+          <Row>
+            <Col s={12} l={12} id='kelsey'>
+              <h4 className='top-marg'>Kelsey Hightower</h4>
+              <h5 className='company'>Google</h5>
+            </Col>
+            <Col s={12} l={9}>
+              <p>Kelsey is a technologist working at Google on simple solutions to hard problems. He has worn every hat possible throughout his career in tech, and enjoys leadership roles focused on making things happen and shipping software. Kelsey is a strong open source advocate focused on building simple tools that make people smile.</p>
+              <p>Pronouns: he/him</p>
+              <h5><a href='https://twitter.com/kelseyhightower' target='_blank' rel='noopener noreferrer'><i className="fab fa-twitter"></i></a></h5>
+            </Col>
+            <Col s={12} l={3}>
+              <img src={'./media/speakers/kelsey.jpg'} alt={'Kelsey Hightower'} className='responsive-img circle' />
             </Col>
           </Row>
           <div className='divider' />
@@ -175,20 +190,6 @@ class Speakers extends Component {
             </Col>
           </Row>
           <div className='divider' />
-          <div className='space-foot' />
-          <h3 className='center-align'>More speakers coming soon!</h3>
-          <div className='space-foot' />
-          <div className='divider' />
-          <h4 className='top-marg'>Become a speaker</h4>
-          <p>If you are interested in serverless technology and have a story to tell, we would be very happy to give you the opportunity to speak in front of an audience eager to hear your tales.</p>
-          <p>It doesn't matter if you're just starting out or if you are already an experienced, battle-hardened cloud guru. We want you to speak!</p>
-          <p>We aim to make ServerlessDays Portland an inclusive conference welcoming speakers from diverse backgrounds.</p>
-          <h4>Schedule</h4>
-          <ul>
-            <li className='pull-left'>June 2018: Call for papers opens</li>
-            <li className='pull-left'>July 20, 2018: Submission deadline</li>
-            <li className='pull-left'>August 2018: Speakers announced</li>
-          </ul>
           <div className='space-foot' />
           <p>Want to find out who's speaking as soon as they're announced? Sign up for our <a data-target='signupModal' className='modal-trigger'>mailing list</a> to be notified.</p>
         </div>

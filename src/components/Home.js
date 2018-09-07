@@ -91,6 +91,13 @@ class Home extends Component {
             </Row>
             <Row>
               <Col s={4} l={4} className='center-align'>
+                <Link to='/speakers#john'>
+                  <img src={'./media/speakers/john.png'} alt={'John Miller'} className='responsive-img circle' />
+                  <h5>John Miller</h5>
+                  <p>Fauna</p>
+                </Link>
+              </Col>
+              <Col s={4} l={4} className='center-align'>
                 <Link to='/speakers#chris'>
                   <img src={'./media/speakers/chris.png'} alt={'Chris Munns'} className='responsive-img circle' />
                   <h5>Chris Munns</h5>
@@ -104,6 +111,8 @@ class Home extends Component {
                   <p>IBM</p>
                 </Link>
               </Col>
+            </Row>
+            <Row>
               <Col s={4} l={4} className='center-align'>
                 <Link to='/speakers#ian'>
                   <img src={'./media/speakers/ian.jpg'} alt={'Ian Scofield'} className='responsive-img circle' />
@@ -111,8 +120,6 @@ class Home extends Component {
                   <p>Amazon Web Services</p>
                 </Link>
               </Col>
-            </Row>
-            <Row>
               <Col s={4} l={4} className='center-align'>
                 <Link to='/speakers#nitzan'>
                   <img src={'./media/speakers/nitzan.jpg'} alt={'Nitzan Shapira'} className='responsive-img circle' />
@@ -126,11 +133,6 @@ class Home extends Component {
                   <h5>Erica Windisch</h5>
                   <p>IOpipe</p>
                 </Link>
-              </Col>
-              <Col s={4} l={4} className='center-align'>
-                <img src={'./media/octo_mascot.png'} alt={'TBA'} className='responsive-img circle' />
-                <h5>TBA</h5>
-                <p>TBA</p>
               </Col>
             </Row>
             <div className='center-align'>
