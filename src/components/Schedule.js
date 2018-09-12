@@ -232,7 +232,7 @@ class Schedule extends Component {
         <div className='divider' />
         <Row>
           <Col s={3} m={2} l={2} className='center-align'>
-            <h4>3:55 pm</h4>
+            <h4>4:30 pm</h4>
           </Col>
           <Col s={1} m={2} l={2} className='center-align'>
             <img src={'./media/octo_mascot.png'} alt={'logo'} className='responsive-img circle hide-on-small-only' width='100'/>
