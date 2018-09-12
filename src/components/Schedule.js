@@ -230,7 +230,19 @@ class Schedule extends Component {
           </Col>
         </Row>
         <div className='divider' />
-
+        <Row>
+          <Col s={3} m={2} l={2} className='center-align'>
+            <h4>3:55 pm</h4>
+          </Col>
+          <Col s={1} m={2} l={2} className='center-align'>
+            <img src={'./media/octo_mascot.png'} alt={'logo'} className='responsive-img circle hide-on-small-only' width='100'/>
+          </Col>
+          <Col s={8} l={8}>
+            <h6>After Party</h6>
+            <h4>Please join us for the after party in The Cleaners room located in Ace Hotel.</h4>
+          </Col>
+        </Row>
+        <div className='divider' />
       </div>
     );
   }
